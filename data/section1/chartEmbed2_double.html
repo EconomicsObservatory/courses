@@ -21,6 +21,13 @@
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
 <body>
+<p> Hello paragraph</p>
+<!--Chart 3 -->
+<div class="chart" id="chart3">
+  <script>
+    vegaEmbed('#chart3', "eco-chart.json");
+  </script>
+</div>
 
 <!--Chart 1 -->
   <div class="chart" id="chart1">
@@ -35,13 +42,6 @@
     <script>
       var myChart2 = "chart2_ukProductivity.json";
       vegaEmbed('#chart2', myChart2);
-    </script>
-</div>
-
-<!--Chart 3 -->
-<div class="chart" id="chart3">
-    <script>
-      vegaEmbed('#chart3', "eco-chart.json");
     </script>
 </div>
 
