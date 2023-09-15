@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- Richard Davies, Data Science -->
+<!-- Example of how to embed a chart in a web page: -->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  BODY //////////////////////////////////// -->
+
+<body>
+
+<h1>Here is my first embedded chart:</h1>
+
+<!--We create a div - this is just an area of our web page-->
+<div class="chart" id="firstChart"></div>
+    <!--We give the Div a class, which can apply to many divs-->
+    <!--And we give the Div and ID, which can apply to ONE divs-->
+    <!--To point to an ID, we use the code #ID. So to get to ID=Richard we use #Richard-->
+      <script>
+        // Following the script tag we are now using Javascript.
+        // One way to tell is to see how comments work, they now start with //.
+        // First job is to set the chart as a JS variable:
+        var myChart1 = "chart1_covidUKRegions.json";
+        // Now we simply insert it, using Vega's embed code:
+        // The embed function needs to be told the location, and what to put there. 
+        vegaEmbed('#firstChart', myChart1);
+      </script>
+
+  </div>
+
+</body>
+
+<!-- ///////////////////  BODY //////////////////////////////////// -->
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<!-- Richard Davies, Data Science-->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+  <!--The next three lines allow the Vega embed-->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<body>
+
+<!--Chart 1 -->
+  <div class="chart" id="chart1">
+      <script>
+        var myChart1 = "chart1_covidUKRegions.json";
+        vegaEmbed('#chart1', myChart1);
+      </script>
+  </div>
+
+<!--Chart 2 -->
+<div class="chart" id="chart2">
+    <script>
+      var myChart2 = "chart2_ukProductivity.json";
+      vegaEmbed('#chart2', myChart2);
+    </script>
+</div>
+
+
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>

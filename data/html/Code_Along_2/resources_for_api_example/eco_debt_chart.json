@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Google's stock price over time.",
+  "data": {
+    "url": "https://api.economicsobservatory.com/gbr/debt?vega",
+    "format": {
+      "type": "json"
+    }
+  },
+    "mark": "line",
+    "title": {
+      "text": "UK Debt to GDP Ratio",
+      "anchor": "start",
+      "subtitle": ["Start of Each Year, Using ONS API via ECO API", ""]
+    },
+    "width": 500,
+    "height": 350,
+
+    "encoding": {
+      "x": {"field": "date", "type": "temporal", "axis":{"title":null}},
+      "y": {"field": "value", "type": "quantitative", "axis":{"title":null}}
+    }
+  }
+  

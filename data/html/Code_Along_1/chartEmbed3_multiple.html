@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Richard Davies, Data Science-->
+<!-- Based on our discussion what is this page going to produce?-->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+<head>
+  <!--The next three lines allow the Vega embed-->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+<body>
+    <!--Divs for 6 charts-->
+    <div class="chart" id="chart1"></div>
+    <div class="chart" id="chart2"></div>
+    <div class="chart" id="chart3"></div>
+    <div class="chart" id="chart4"></div>
+    <div class="chart" id="chart5"></div>
+    <div class="chart" id="chart6"></div>
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+
+<!-- ///////////////////  START JS //////////////////////////////////// -->
+<script>
+    // Define our charts:
+    var myChart1 = "chart1_covidUKRegions.json";
+    var myChart2 = "chart2_ukProductivity.json";
+    
+    // Embed charts:
+    vegaEmbed('#chart1', myChart1);
+    vegaEmbed('#chart2', myChart2);
+    vegaEmbed('#Chart3', myChart1);
+    vegaEmbed('#chart4', myChart1);
+    vegaEmbed('#chart5', myChart2);
+</script>
+<!-- ///////////////////  END JS //////////////////////////////////// -->
+
+</html>
