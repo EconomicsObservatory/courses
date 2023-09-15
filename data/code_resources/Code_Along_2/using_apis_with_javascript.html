@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>APIs with Javascript Example</title>
+    <link rel="stylesheet" href="resources_for_api_example/apis_example_styles.css">
+    <style>
+        /* make code centered and on own line with light-grey background */
+        code {
+            display: block;
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        img {
+            width: 50%;
+            display: block;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main">
+        <h1>APIs with Javascript</h1>
+        <h2>Charts using the ONS and ECO APIs</h2>
+        <p>
+            Two example charts using publically accessible APIs are presented here. First, the ONS API is used to present British debt data, then the same series is requested from the Economics Observatory API. The data is then used to create a chart using Vega-Lite. 
+        </p>
+
+        <section>
+            <div class="chart-details">
+                <h3>ONS API</h3>
+                <p> UK national debt data is available on the ONS's API at:
+                    <code>https://api.ons.gov.uk/timeseries/HF6X/dataset/PUSF/data</code>
+                    This follows the standard ONS API format of:
+                    <code>https://api.ons.gov.uk/timeseries/{dataset}/dataset/{timeseries}/data</code>
+                    The dataset and timeseries can be found on the ONS website, though they are sometimes hard to find. The dataset and timeseries for this example come from <a href="https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/hf6x/pusf">here</a>:
+                    <img src="resources_for_api_example/ons_screenshot.jpg" alt="ONS API example"> 
+                    We can then use this API url in a Vega-Lite chart by specifying the url in the data section of the chart specification.
+                </p>
+            </div>
+            <figure class="chart-figure" id="onsChart"></figure>
+            <p>
+                But this is a complicated process. We have to search for the exact dataset and timeseries we want, and we have to configure vega-lite to extract the data from the right place in the API response.
+                <code>
+                    "data": {
+                        "url": "https://api.ons.gov.uk/timeseries/HF6X/dataset/PUSF/data", 
+                        "format": {
+                            "property": "months"
+                        }},
+                </code>
+            </p>
+        </section>
+
+        <section>
+            <div class="chart-details">
+                <h3> ECO API</h3>
+                <p> For this series, we can use the ECO API as an alternative. The URL is much more concise
+                    <code> https://api.economicsobservatory.com/gbr/debt </code>
+                    and it can be easily retrieved using the <a href="https://www.economicsobservatory.com/data-hub">ECO Data Explorer</a>. The data is also returned in a more convenient format, so we don't need to specify the format in the chart specification or parse dates in the vega-lite specification.
+                </p>
+            </div>
+            <figure class="chart-figure" id="ecoChart"></figure>
+        </section>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script>
+
+
+        vegaEmbed('#onsChart', "resources_for_api_example/ons_debt_chart.json")
+        vegaEmbed('#ecoChart', "resources_for_api_example/eco_debt_chart.json")
+
+
+    </script>
+</body>
+
+</html>
