@@ -1,0 +1,39 @@
+/*this is my first proper CSS file */
+
+
+body{
+
+    background-color: #122b39 ;
+    max-width: 450px;
+    margin: auto;
+}
+
+h1{
+
+    color: rgb(219, 188, 188);
+    font-family: 'Poppins', sans-serif ;
+}
+
+h3{
+    color: #f4c245;
+    font-family: 'Poppins', sans-serif ;
+}
+
+p{font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+.textLink { color: #f4c245; } /* CSS link color (yellow) */
+.textLink:hover { color: #f6d173; } /* CSS link hover (pale yellow) */
+
+.chart{
+    width: 330px;
+    border-width: 3px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #f4c245;
+    margin: auto;
+
+
+}
