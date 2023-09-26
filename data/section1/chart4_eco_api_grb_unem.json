@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Unemployment rate",
+    "subtitle": "Ages 16 and over, % | Source: ONS through ECO API",
+    "fontSize": "14",
+    "subtitleFontSize": "12",
+    "color": "#000000",
+    "subtitleColor": "#000000"
+  },
+  "height": "250",
+  "width": "320",
+  "background": "#ffffff",
+  "view": {
+    "fill": "#ffffff"
+  },
+  "data": {
+    "url": "https://api.economicsobservatory.com/gbr/unem?vega",
+    "format": {
+      "type": "json"
+    }
+  },
+  "mark": {
+    "type": "line",
+    "color": "#f4134d",
+    "strokeWidth": "2"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "title": "",
+        "titleColor": "#122B39"
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {
+        "title": "",
+        "titleColor": "#122B39"
+      }
+    }
+  }
+}
