@@ -26,17 +26,19 @@ You will gain the skills and tools needed to create excellent charts. The course
 ## 🕒 Schedule
 | Session |    Time     |                Topic                 |
 | :-----: | :---------: | :----------------------------------: |
-|    1    | 09:00-10:30 |     Building your first website      |
+|    1    | 09:00-10:30 |            Charts as data            |
 |  Break  | 10:30-11:00 |             Coffee break             |
-|    2    | 11:00-12:30 |   Introduction to data processing    |
+|    2    | 11:00-12:30 |       Building your first website/Fetching data from APIs    |
 |  Break  | 12:30-13:30 |             Lunch break              |
-|    3    | 13:30-15:00 |   Accessing data programmatically    |
+|    3    | 13:30-15:00 |        Advanced visualisations       |
 |  Break  | 15:00-15:30 |             Coffee break             |
-|    4    | 15:30-17:00 | Visualisation and advanced analytics |
+|    4    | 15:30-17:00 | Scrapers |
 
 ## 📑 Syllabus
 
-### Session 1 - Building your first website
+### Session 1 - Charts as data
+
+### Session 2 - Building your first website
 
 `Coordinated by: Prof Richard Davies`  
   
@@ -69,20 +71,8 @@ What is good Data Science? Where does it sit? Principles.
   -  What would you like to learn?
 -  You should end up with something like [this](https://eco-demo-student.github.io/).
 
-### Session 2 - Introduction to data processing
 
-`Coordinated by: Prof Richard Davies`  
-
-🔖 The second session is an introduction to data processing,  devoted to loops, one of the most powerful tools in any coder’s arsenal and conditionality statements. We will show how a loop takes you from a small dataset to the world of big data.
-
-#### a. Programming for Data Science
-
-- Conditionality: `if` statements
-- Iterations: `for` loops
-- Multi-dimensional data
-- Elegance in code
-
-### Session 3 - Accessing data programmatically
+### Session 3 - Fetching data from APIs
 
 `Coordinated by: Dr Dénes Csala`  
 
@@ -104,7 +94,7 @@ What is good Data Science? Where does it sit? Principles.
 - Advanced web scraping with `BeautifulSoup`
 - Browser automation with `Selenium`
 
-### Session 4 - Visualisation and advanced analytics
+### Session 4 - Advanced visualisations
 
 `Coordinated by: Dr Dénes Csala`  
 
@@ -137,9 +127,6 @@ Ideally, your portfolio should include at least `3 charts`:
 - Please think about what you might include in your portfolio and what data you might use. You can use any data you like, but we will also provide some datasets for you to use.
 - If you would like to create a specific chart, we can help you build it - but consider the range of possibilities in the [Vega-Lite Example Gallery](https://vega.github.io/vega-lite/examples/). 
 
-### Self-guided learning
-
-This is an extra, self-guided session in which you will build tools to learn from the data. Using some guiding notebooks in `python`, we illustrate the differences between ****Artificial Intelligence**** (AI) and **Machine Learning** (ML) and the difference between *supervised* and *unsupervised* learning, as well as the use of labelled and unlabelled data.
 
 ### Resources
 
