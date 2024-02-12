@@ -33,13 +33,21 @@ You will gain the skills and tools needed to create excellent charts. The course
 | Session |    Time     |                Topic                 |Tool|
 | :-----: | :---------: | :----------------------------------: | :----------------------------------:|
 |    0    | 09:00-09:30 |               Setting up             ||
-|    1    | 09:30-10:30 |            Charts as data  |Browser/Vega-editor|<!-- / Only browser / vega editor           | //charting principles 30 min //30 min charts as data Vega (just show, no code-along) //3 ways of data embed - hard coded, csv, api url -->
+|    1    | 09:30-10:30 |            Charts as data  |Vega-editor|<!-- / Only browser / vega editor           | //charting principles 30 min //30 min charts as data Vega (just show, no code-along) //3 ways of data embed - hard coded, csv, api url -->
 |  Break  | 10:30-11:00 |             Coffee break             ||
 |    2    | 11:00-12:30 |      Building your first website |VSCode|
- (there is wiggle room here) out of the box html that just works and has a chart on the page - embeddign in 2 wass - direct json in jsvascript, link to json file (this is difficult, needs a lot of config for vega embed and files)  - needs good template files - need to try out the process on the codespace saving files + css - 3 tiers - CSS templates with CSS comments for instructions - including how to publish on github
+ |  Break  | 12:30-13:15 |             Lunch break              |BYOD!|<!-- - 3 embedded charts / 3 ways (even if using our provided csv/api) - but pretty boilerplate - -->
+|    3    | 13:15-14:15 |        Acessing data programatically|Google Colab|
+|    4    | 14:15-15:15 |        Advanced visualisations| VSCode/Vega-editor|
+|  Break  | 15:15-15:30 |             Coffee break             ||
+|    5    | 15:30-16:30 | Data scraping | |
+|    6    | 16:30-17:00 | Epilogue||
+
+## 2
+(there is wiggle room here) out of the box html that just works and has a chart on the page - embeddign in 2 wass - direct json in jsvascript, link to json file (this is difficult, needs a lot of config for vega embed and files)  - needs good template files - need to try out the process on the codespace saving files + css - 3 tiers - CSS templates with CSS comments for instructions - including how to publish on github
 HTML
 CSS
-point out <script>
+point out script
 JSON - references Vega Lite specs
 Two spec: simple bar chart or alike + real chart we made recently
 Go to Vega eidtor, look at  another spec, bring it into VSCode, save over chart 1
@@ -53,14 +61,16 @@ We need to create 5 datasets/ 3-4 dimensions, 20 adatapoints each max - nice lab
 TODO - Finn/Josh Beefing up the comments / Simple datasets
 TODO - Denes / datasets linking onto README
 
-|  Break  | 12:30-13:15 |             Lunch break              | - 3 embedded charts / 3 ways (even if using our provided csv/api) - but pretty boilerplate -
+## 2-3 break
 ANY CHART ANY DATA - BYOD - lets convince 3-4 people 
 
 TODO - Charlie should sned out an alert for BYOD? 2 days before?
 
 Customising to your needs
 Intro to Colab? - already in the video
-|    3    | 13:15-14:15 |        Acessing data programatically/Fetching data from APIs / If on dekstop Vscode/everyone goes to Colab (can mention that you can run python in dekstop/codespace, but it needs setup) - Slides - here we will need a precise intructions on how to copy paste files between the systems      | 20 min slides / 40 min coding !
+
+## 3
+python in dekstop/codespace, but it needs setup) - Slides - here we will need a precise intructions on how to copy paste files between the systems      | 20 min slides / 40 min coding !
 Default Colab Colab links only, NO ipynb FILES
 Embed one more chart - custom data, not prepackaged example / introduce python for loops and if statements
 
@@ -81,11 +91,8 @@ ANother JSON file that they can embed into their website
 TODO - Denes start and defined structure / pregenerated file export for hte looped dataset
 TODO - Josh - fill with content FOR example
 
-
-(4th chart)
-
-
-|    4    | 14:15-15:15 |        Advanced visualisations   - staying within vega editor/editing json files in vscode    | Visual language 20 min /40 min - bring in from what is section 1 now / streamline the reaminign of section 1 / code-along examples for 3 and 4 D visuals - e.g. scatter plot with circle sizes or colors, tier 2 - 4D tooltip/shape, trellis/ tier 3 - map, parallel cordinates or something exotic - these are difficult, so lots' of examples on every level / data transformations / aggregate/calculated variable and join for the geojson
+## 4
+what is section 1 now / streamline the reaminign of section 1 / code-along examples for 3 and 4 D visuals - e.g. scatter plot with circle sizes or colors, tier 2 - 4D tooltip/shape, trellis/ tier 3 - map, parallel cordinates or something exotic - these are difficult, so lots' of examples on every level / data transformations / aggregate/calculated variable and join for the geojson
 
 Several types of "advanced" visualisation - more example 9-10 - each doing a differnet function / add toolip / add shape/color/ format axes /add legend /map 
 They edit their chart type in the vega editor
@@ -99,13 +106,11 @@ TODO doing the examples Finn
 (5th chart)
 
 
-|  Break  | 15:15-15:30 |             Coffee break             | 
-|    5    | 15:30-16:30 | Scrapers | - example led by Finn/Josh - Colab / picking python / pandas laoding data into python / loading that data remotely from a web table / wikipedia / observatory site - nicely commented jupyter notebook for scraping wikipedia / tier 2 - bs4, understadning html srouce code and reverse engineering the structure - rbing 5 very nice examples site  / tier 3 just show and tell on how does this work for hte case of a large project - Finns - 
+## 5
+table / wikipedia / observatory site - nicely commented jupyter notebook for scraping wikipedia / tier 2 - bs4, understadning html srouce code and reverse engineering the structure - rbing 5 very nice examples site  / tier 3 just show and tell on how does this work for hte case of a large project - Finns - 
 Notebook
 
 TODO - Finn/Josh - Colab notebook with comments read_html + bs4 + /Selenium code or presnetation (10 min)
-
-|    6    | 16:30-17:00 | Epilogue
 
 outcome is  chart where the data is via a scraper (6 charts in total) - the top of the visualisation climbing wall/different routes
 
@@ -150,7 +155,7 @@ What is good Data Science? Where does it sit? Principles.
 -  You should end up with something like [this](https://eco-demo-student.github.io/).
 
 
-### Session 3 - Fetching data from APIs
+### Session 3 - Accessing data programatically
 
 `Coordinated by: Dr Dénes Csala`  
 
@@ -199,6 +204,12 @@ Ideally, your portfolio should include at least `3 charts`:
 - One example chart that we used in the class, but has a slight modification and an interactive component - this could be a legend, a tooltip, a slider, a dropdown, etc.
 -	A chart with automated data loading through an API or web scraping
 -	A chart about a topic that you especially care about
+
+### Session 5 - Data scraping
+
+`Coordinated by: Finn McEvoy`  
+
+🔖 The last session of the day is an introduction to data visualisation 
 
 #### 🎮 Action points
 
