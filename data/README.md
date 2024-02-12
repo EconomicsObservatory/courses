@@ -16,27 +16,110 @@ Welcome to our interactive data masterclass. At the **Economics Observatory** we
 
 In our day-to-day work the **Economics Observatory**, we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical to what we do. This masterclass is designed to capture and share that workflow.
 
-## 🔍 Scope
+## 🏔️ Scope
 
 Our data visualisation masterclass will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation as the main channel for communicating (economic) information to a wide and diverse audience. It will also introduce some of our guiding principles on visualisation, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
+
+Throughout the course, we will offer and support 3 routes up the data mountain:
+
+  - 🥾 Hiker - best suited for those who have created some nicer-looking charts before, trialing various tools, but didn't really approach the subject in a structured way.
+  - 👟 Trail runner - best suited for those who can cruise through basic functions such as setting up coding environments and we can focus on the visualisation part straight away
+  - 🗻 Mountaineer - best suited for those who have spent a bivouac debugging data scraper running overnight
 
 You will gain the skills and tools needed to create excellent charts. The course will also signpost additional resources to develop the ideas further, allowing participants to gain confidence in their own abilities and teach others. The latter stages of the course will delve deeper into the current information representation and science communication theory, exploring more advanced data visualisation methods.
 
 
 ## 🕒 Schedule
-| Session |    Time     |                Topic                 |
-| :-----: | :---------: | :----------------------------------: |
-|    1    | 09:00-10:30 |            Charts as data            |
-|  Break  | 10:30-11:00 |             Coffee break             |
-|    2    | 11:00-12:30 |       Building your first website/Fetching data from APIs    |
-|  Break  | 12:30-13:30 |             Lunch break              |
-|    3    | 13:30-15:00 |        Advanced visualisations       |
-|  Break  | 15:00-15:30 |             Coffee break             |
-|    4    | 15:30-17:00 | Scrapers |
+| Session |    Time     |                Topic                 |Tool|
+| :-----: | :---------: | :----------------------------------: | :----------------------------------:|
+|    0    | 09:00-09:30 |               Setting up             ||
+|    1    | 09:30-10:30 |            Charts as data  |Vega-editor|<!-- / Only browser / vega editor           | //charting principles 30 min //30 min charts as data Vega (just show, no code-along) //3 ways of data embed - hard coded, csv, api url -->
+|  Break  | 10:30-11:00 |             Coffee break             ||
+|    2    | 11:00-12:30 |      Building your first website |VSCode|
+ |  Break  | 12:30-13:15 |             Lunch break              |BYOD!|<!-- - 3 embedded charts / 3 ways (even if using our provided csv/api) - but pretty boilerplate - -->
+|    3    | 13:15-14:15 |        Acessing data programatically|Google Colab|
+|    4    | 14:15-15:15 |        Advanced visualisations| VSCode/Vega-editor|
+|  Break  | 15:15-15:30 |             Coffee break             ||
+|    5    | 15:30-16:30 | Data scraping | |
+|    6    | 16:30-17:00 | Epilogue||
+
+## 2
+(there is wiggle room here) out of the box html that just works and has a chart on the page - embeddign in 2 wass - direct json in jsvascript, link to json file (this is difficult, needs a lot of config for vega embed and files)  - needs good template files - need to try out the process on the codespace saving files + css - 3 tiers - CSS templates with CSS comments for instructions - including how to publish on github
+HTML
+CSS
+point out script
+JSON - references Vega Lite specs
+Two spec: simple bar chart or alike + real chart we made recently
+Go to Vega eidtor, look at  another spec, bring it into VSCode, save over chart 1
+Then abserve the page changing
+Then bring in anotehr spec and create  a 3rd chart
+back to vega editor, create their own spec, bring it into the envrionment, embed as a 3 chart
+3 simple datasets / eco api
+FULL RAW link to the file itslef in the datsets fodler - README
+We need to create 5 datasets/ 3-4 dimensions, 20 adatapoints each max - nice labels / NICE TO HAVE - more, real-world data
+
+TODO - Finn/Josh Beefing up the comments / Simple datasets
+TODO - Denes / datasets linking onto README
+
+## 2-3 break
+ANY CHART ANY DATA - BYOD - lets convince 3-4 people 
+
+TODO - Charlie should sned out an alert for BYOD? 2 days before?
+
+Customising to your needs
+Intro to Colab? - already in the video
+
+## 3
+python in dekstop/codespace, but it needs setup) - Slides - here we will need a precise intructions on how to copy paste files between the systems      | 20 min slides / 40 min coding !
+Default Colab Colab links only, NO ipynb FILES
+Embed one more chart - custom data, not prepackaged example / introduce python for loops and if statements
+
+Python examples need creating from scratch
+General intro section / vairabels/operations/colab interface Markdown comments
+IF statement
+For loop - with dummy data
+Data strcutures - list dictionayr - translated into JSON array/object but the syntax stays the same
+Load csv data with pandas
+Loop through loading multiple datasets - merging them toegether
+Basic pandas transformation -referenceing columns, rows, replacing nulls, erorrs, strings edits, cerating new columns, summarization/groupby
+Stick to CSV
+ANother JSON file that they can embed into their website
+  Then a chart spec json.
+  Data source csv
+  Chart spec needs to references the data source csv
+
+TODO - Denes start and defined structure / pregenerated file export for hte looped dataset
+TODO - Josh - fill with content FOR example
+
+## 4
+what is section 1 now / streamline the reaminign of section 1 / code-along examples for 3 and 4 D visuals - e.g. scatter plot with circle sizes or colors, tier 2 - 4D tooltip/shape, trellis/ tier 3 - map, parallel cordinates or something exotic - these are difficult, so lots' of examples on every level / data transformations / aggregate/calculated variable and join for the geojson
+
+Several types of "advanced" visualisation - more example 9-10 - each doing a differnet function / add toolip / add shape/color/ format axes /add legend /map 
+They edit their chart type in the vega editor
+- they go back to the python part edit their data
+- go back HTML part and emebd chart
+
+TODO - Select advanced visualisation types/pregenerate a JSON specs 
+TODO defining the cases for "Advanced viz"
+TODO doing the examples Finn
+
+(5th chart)
+
+
+## 5
+table / wikipedia / observatory site - nicely commented jupyter notebook for scraping wikipedia / tier 2 - bs4, understadning html srouce code and reverse engineering the structure - rbing 5 very nice examples site  / tier 3 just show and tell on how does this work for hte case of a large project - Finns - 
+Notebook
+
+TODO - Finn/Josh - Colab notebook with comments read_html + bs4 + /Selenium code or presnetation (10 min)
+
+outcome is  chart where the data is via a scraper (6 charts in total) - the top of the visualisation climbing wall/different routes
 
 ## 📑 Syllabus
 
 ### Session 1 - Charts as data
+
+General comments
+Tiers within each section / color code it! let's call it the //climbing the visualisation hill!!
 
 ### Session 2 - Building your first website
 
@@ -72,7 +155,7 @@ What is good Data Science? Where does it sit? Principles.
 -  You should end up with something like [this](https://eco-demo-student.github.io/).
 
 
-### Session 3 - Fetching data from APIs
+### Session 3 - Accessing data programatically
 
 `Coordinated by: Dr Dénes Csala`  
 
@@ -121,6 +204,12 @@ Ideally, your portfolio should include at least `3 charts`:
 - One example chart that we used in the class, but has a slight modification and an interactive component - this could be a legend, a tooltip, a slider, a dropdown, etc.
 -	A chart with automated data loading through an API or web scraping
 -	A chart about a topic that you especially care about
+
+### Session 5 - Data scraping
+
+`Coordinated by: Finn McEvoy`  
+
+🔖 The last session of the day is an introduction to data visualisation 
 
 #### 🎮 Action points
 
