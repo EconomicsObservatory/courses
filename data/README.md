@@ -26,17 +26,41 @@ You will gain the skills and tools needed to create excellent charts. The course
 ## 🕒 Schedule
 | Session |    Time     |                Topic                 |
 | :-----: | :---------: | :----------------------------------: |
-|    1    | 09:00-10:30 |            Charts as data            |
+|    0    | 09:00-09:30 |               Setting up             | github.io site setup README (i willdesribe standand github process)
+|    1    | 09:30-10:30 |            Charts as data  / Only browser / vega editor           | //charting principles 30 min //30 min charts as data Vega (just show, no code-along) //3 ways of data embed - hard coded, csv, api url
 |  Break  | 10:30-11:00 |             Coffee break             |
-|    2    | 11:00-12:30 |       Building your first website/Fetching data from APIs    |
-|  Break  | 12:30-13:30 |             Lunch break              |
-|    3    | 13:30-15:00 |        Advanced visualisations       |
-|  Break  | 15:00-15:30 |             Coffee break             |
-|    4    | 15:30-17:00 | Scrapers |
+|    2    | 11:00-12:30 |      Force same theme - Building your first website /VSCode (wither online or offline - it needs live server extension)    | (there is wiggle room here) out of the box html that just works and has a chart on the page - embeddign in 2 wass - direct json in jsvascript, link to json file (this is difficult, needs a lot of config for vega embed and files)  - needs good template files - need to try out the process on the codespace saving files + css - 3 tiers - CSS templates with CSS comments for instructions - including how to publish on github
+HTML
+CSS
+point out <script>
+JSON - references Vega Lite specs
+Two spec: simple bar chart or alike + real chart we made recently
+Go to Vega eidtor, look at  another spec, bring it into VSCode, save over chart 1
+Then abserve the page changing
+Then bring in anotehr spec and create  a 3rd chart
+back to vega editor, create their own spec, bring it into the envrionment, embed as a 3 chart
+3 simple datasets / eco api
+FULL RAW link to the file itslef in the datsets fodler - README
+We need to create 5 datasets/ 3-4 dimensions, 20 adatapoints each max - nice labels / NICE TO HAVE - more, real-world data
+
+|  Break  | 12:30-13:15 |             Lunch break              | - 3 embedded charts / 3 ways (even if using our provided csv/api) - but pretty boilerplate -
+
+Customising to your needs
+|    3    | 13:15-14:15 |        Acessing data programatically/Fetching data from APIs / If on dekstop Vscode/everyone goes to Colab (can mention that you can run python in dekstop/codespace, but it needs setup) - here we will need a precise intructions on how to copy paste files between the systems      | 20 min slides / 40 min coding !
+Embed one more chart - custom data, not prepackaged example / introduce python for loops and if statements
+|    4    | 14:15-15:15 |        Advanced visualisations   - staying within vega editor/editing json files in vscode    | Visual language 20 min /40 min - bring in from what is section 1 now / streamline the reaminign of section 1 / code-along examples for 3 and 4 D visuals - e.g. scatter plot with circle sizes or colors, tier 2 - 4D tooltip/shape, trellis/ tier 3 - map, parallel cordinates or something exotic - these are difficult, so lots' of examples on every level / data transformations / aggregate/calculated variable and join for the geojson
+|  Break  | 15:15-15:30 |             Coffee break             | 
+|    4    | 15:30-16:30 | Scrapers | - example led by Finn/Josh - Colab / picking python / pandas laoding data into python / loading that data remotely from a web table / wikipedia / observatory site - nicely commented jupyter notebook for scraping wikipedia / tier 2 - bs4, understadning html srouce code and reverse engineering the structure - rbing 5 very nice examples site  / tier 3 just show and tell on how does this work for hte case of a large project - Finns - 
+|    5    | 16:30-17:00 | Epilogue
+
+outcome is  chart where the data is via a scraper (6 charts in total) - the top of the visualisation climbing wall/different routes
 
 ## 📑 Syllabus
 
 ### Session 1 - Charts as data
+
+General comments
+Tiers within each section / color code it! let's call it the //climbing the visualisation hill!!
 
 ### Session 2 - Building your first website
 
