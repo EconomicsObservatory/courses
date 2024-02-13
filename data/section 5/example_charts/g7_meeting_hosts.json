@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%205/g7_summits.csv"
+  },
+  "mark": {"type": "bar", "fill":"teal"},
+  "encoding": {
+    "x": {"field": "Count", "type": "quantitative", "axis": {"labelAngle": 0, "values": [0,1,2,3]}, "title":null},
+    "y": {"field": "Location held", "type": "nominal", "sort":"-x", "title":null}
+  },
+  "title":{
+    "text": "G7 Meeting Locations",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitle": ["4 places have hosted more than 1 meeting", "Source: Wikipedia"],
+    "anchor": "start"
+  },
+  "width": 300,
+  "height": 300
+}

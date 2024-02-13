@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple line chart with GDP per capita for the UK, USA and South Korea using data from an external CSV file.",
+  "data": {"url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%201/example_data/chart2_GDP_pc_gbr_usa_kor.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "title":null},
+    "y": {"field": "GDP pc", "type": "quantitative", "axis":{"format":"$,.0r"}, "title":null},
+    "color": {"field": "Country Name", "type": "nominal"}
+  },
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text":"Real GDP Per Capita",
+    "subtitle": ["Current International USD, PPP", "Source: World Bank"]
+    }
+}

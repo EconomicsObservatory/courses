@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400, "height": 300,
+  "data": {"url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%202/interesting_datasets/OWID_world_poverty_panel.csv"},
+  "mark": "area",
+  "title": {
+    "text": "Population at Poverty Thresholds",
+    "subtitle": ["adjusted for inflation and international price differences", "Source: OWID", ""],
+    "anchor": "start"
+  },
+  "encoding": {
+    "x": {
+        "field": "year",
+        "title":null,
+        "type": "temporal",
+        "axis": {"gridOpacity":0}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": null
+    },
+    "color": {
+      "field": "series",
+      "title": "Threshold",
+      "legend": {
+        "values": [
+"<$1.90", "$1.90-$5",  "$5-$10", "$10-$30", "Above $30"
+        ]
+      },
+      "scale": {"scheme": "category20b", "reverse":true}
+    },
+    "order": {
+        "field": "series_rank"
+    }
+  }
+}

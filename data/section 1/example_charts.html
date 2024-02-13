@@ -1,0 +1,129 @@
+<!-- This is a comment -->
+<!-- Comments are not displayed in the browser -->
+<!-- They can be used to leave notes in the code -->
+
+<!-- TODO: Add more comments (e.g. what do head, body, h1 do; HTML is heirarchial; tags have an open an close; style/ids) -->
+<!-- TODO: Use simple charts: one should be very very simple -->
+
+<!DOCTYPE html>
+<html> 
+    <!-- HTML is heirarchial: tags like this define elements on the page. 
+        Each tag does something different. For example:
+            - The <html> tag wraps the whole document. 
+            - The <h1> tag defines a large heading
+            - The <p> tag defines a paragraph.
+
+        -->
+
+<head>    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+
+    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
+    <!-- Try swapping level_1 to another, and take a look at level_1.css to see if you understand it-->
+    <link rel="stylesheet" type="text/css" href="example_charts.css">
+    <title>Using Data</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+</head>
+
+<body> <!-- The body tag contains the elements that visitors to our page will see. -->
+    <h1 style="margin-bottom: 0px;"> <!-- we can also style elements directly in the HTML by setting the style= atrribute of a tag. -->
+        <!-- This is a header, it is the largest text on the page -->
+        Using data: three ways
+    </h1>
+    <p style="margin-top: 0px;">
+        <!-- we're setting the margin to 0px so the header and authour name are close together -->
+        Embedded, Linked and from an API.
+    </p>
+    <h3>
+        We can include data in our Vega-lite charts in three different ways. This page shows very simple charts that demonstrate each. Feel free to adapt these examples for your own use.
+    </h3>
+
+    <section>
+        <div class="chart-description">
+            <h2>Method 1: Defining Data Inline</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                The simplest way to include data in a Vega-lite chart is just to define the data in the chart itself.
+            </p>
+            <pre>
+            <code>
+"data": {
+    "values": [
+        {"Country": "Denmark", "GDP Per Capita": 74897.0},
+        {"Country": "United States", "GDP Per Capita": 76329.6},
+        {"Country": "Netherlands", "GDP Per Capita": 70869.4},
+        {"Country": "France", "GDP Per Capita":       55387.5},
+        {"Country": "United Kingdom", "GDP Per Capita": 54929.8},
+        {"Country": "Italy", "GDP Per Capita": 52804.0}
+    ]
+    },
+            </code>
+            </pre>
+        </div>
+        <figure id="figure_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Method 2: Linking to Data</h2>
+            <p>
+            The most common way to include data in a Vega-lite chart is to link to a file that contains the data. This is the most flexible way to include data, as it allows you to update the data without changing the chart. Here, we're linking to a CSV file <a href="https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/
+            section%201/example_data/chart2_GDP_pc_gbr_usa_kor.csv">here</a> that contains GDP per capita data for the UK, USA and South Korea.
+            </p>
+            <pre>
+            <code>
+"data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/
+        section%201/example_data/chart2_GDP_pc_gbr_usa_kor.csv"
+},
+            </code>
+            </pre> 
+            <p>
+                Instead of specifying all the values in the chart, we're just linking to a file that contains the data. 
+            </p>
+        </div>
+        <figure id="figure_2"></figure>
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2>Method 3: Using data from an API</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                We can also use data from an API. This is a bit more complicated, but it's a good way to include data that's updated regularly. Here, we're using data from the <a href="https://www.economicsobservatory.com/data-hub">Economics Observatory API</a> to fetch ONS growth data. Using data from the API means the chart will stay up to date as the data changes.
+            </p>
+            <pre>
+            <code>
+"data": {"url": "https://api.economicsobservatory.com/gbr/grow?vega"},
+            </code>
+            </pre>
+        </div>
+        <figure id="figure_3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <!-- This is a script, it's a way to run JavaScript code on the page -->
+    <script>
+        // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+        var figure_1_spec = "chart1_data_inline.json"; // We're storing the URL of the graph we want to display in a variable
+        var figure_2_spec = "chart2_data_linked.json";
+        var figure_3_spec = "chart3_data_from_api.json";
+
+        vegaEmbed('#figure_1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#figure_2', figure_2_spec)
+        vegaEmbed('#figure_3', figure_3_spec)
+
+        // Do you want to add more graphs?
+        // try defining a new variable for figure_3_spec, adding VegaEmbed for figure_3, and adding a new section in the HTML
+
+    </script>
+
+
+
+
+</body>
+
+</html>
