@@ -30,48 +30,169 @@ You will gain the skills and tools needed to create excellent charts. The course
 
 
 ## 🕒 Schedule
-| Time | Section | Details |
-| ---- | ---- | ---- |
-| 09.00 - 09.30 |  | Welcome coffee. Checking computer set ups. |
-| 09.30 - 10.30 | 1 | Charts as data – introducing Vega-Lite |
-| 10.30 - 11.00 | _Break_ | _Coffee/tea (team available to fix bugs)_ |
-| 11:00 - 12.30 | 2 | My first website – GitHub, HMTL, CSS and JavaScript |
-| 12.30 - 13.15 | _Lunch_ | _Lunch (team available to fix bugs)_ |
-| 13.15 - 14.15 | 3 | Programming – APIs, if statements, and loops. |
-| 14.15 - 15.15 | 4 | Advanced visualisations – beyond two dimensions |
-| 15:15 - 15:30 | _Break_ | _Coffee/tea (team available to fix bugs)_ |
-| 15.30 - 16.30 | 5 | Scraping – fetching data with Python |
+| Session |    Time     |                Topic                 |Tool|
+| :-----: | :---------: | :----------------------------------: | :----------------------------------:|
+|    0    | 09:00-09:30 |               Setting up             ||
+|    1    | 09:30-10:30 |            Charts as data  |Vega-editor|<!-- / Only browser / vega editor           | //charting principles 30 min //30 min charts as data Vega (just show, no code-along) //3 ways of data embed - hard coded, csv, api url -->
+|  Break  | 10:30-11:00 |             Coffee break             ||
+|    2    | 11:00-12:30 |      Building your first website |VSCode|
+ |  Break  | 12:30-13:15 |             Lunch break              |BYOD!|<!-- - 3 embedded charts / 3 ways (even if using our provided csv/api) - but pretty boilerplate - -->
+|    3    | 13:15-14:15 |        Acessing data programatically|Google Colab|
+|    4    | 14:15-15:15 |        Advanced visualisations| VSCode/Vega-editor|
+|  Break  | 15:15-15:30 |             Coffee break             ||
+|    5    | 15:30-16:30 | Data scraping | |
+|    6    | 16:30-17:00 | Epilogue||
+
+## 2
+(there is wiggle room here) out of the box html that just works and has a chart on the page - embeddign in 2 wass - direct json in jsvascript, link to json file (this is difficult, needs a lot of config for vega embed and files)  - needs good template files - need to try out the process on the codespace saving files + css - 3 tiers - CSS templates with CSS comments for instructions - including how to publish on github
+HTML
+CSS
+point out script
+JSON - references Vega Lite specs
+Two spec: simple bar chart or alike + real chart we made recently
+Go to Vega eidtor, look at  another spec, bring it into VSCode, save over chart 1
+Then abserve the page changing
+Then bring in anotehr spec and create  a 3rd chart
+back to vega editor, create their own spec, bring it into the envrionment, embed as a 3 chart
+3 simple datasets / eco api
+FULL RAW link to the file itslef in the datsets fodler - README
+We need to create 5 datasets/ 3-4 dimensions, 20 adatapoints each max - nice labels / NICE TO HAVE - more, real-world data
+
+TODO - Finn/Josh Beefing up the comments / Simple datasets
+TODO - Denes / datasets linking onto README
+
+## 2-3 break
+ANY CHART ANY DATA - BYOD - lets convince 3-4 people 
+
+TODO - Charlie should sned out an alert for BYOD? 2 days before?
+
+Customising to your needs
+Intro to Colab? - already in the video
+
+## 3
+python in dekstop/codespace, but it needs setup) - Slides - here we will need a precise intructions on how to copy paste files between the systems      | 20 min slides / 40 min coding !
+Default Colab Colab links only, NO ipynb FILES
+Embed one more chart - custom data, not prepackaged example / introduce python for loops and if statements
+
+Python examples need creating from scratch
+General intro section / vairabels/operations/colab interface Markdown comments
+IF statement
+For loop - with dummy data
+Data strcutures - list dictionayr - translated into JSON array/object but the syntax stays the same
+Load csv data with pandas
+Loop through loading multiple datasets - merging them toegether
+Basic pandas transformation -referenceing columns, rows, replacing nulls, erorrs, strings edits, cerating new columns, summarization/groupby
+Stick to CSV
+ANother JSON file that they can embed into their website
+  Then a chart spec json.
+  Data source csv
+  Chart spec needs to references the data source csv
+
+TODO - Denes start and defined structure / pregenerated file export for hte looped dataset
+TODO - Josh - fill with content FOR example
+
+## 4
+what is section 1 now / streamline the reaminign of section 1 / code-along examples for 3 and 4 D visuals - e.g. scatter plot with circle sizes or colors, tier 2 - 4D tooltip/shape, trellis/ tier 3 - map, parallel cordinates or something exotic - these are difficult, so lots' of examples on every level / data transformations / aggregate/calculated variable and join for the geojson
+
+Several types of "advanced" visualisation - more example 9-10 - each doing a differnet function / add toolip / add shape/color/ format axes /add legend /map 
+They edit their chart type in the vega editor
+- they go back to the python part edit their data
+- go back HTML part and emebd chart
+
+TODO - Select advanced visualisation types/pregenerate a JSON specs 
+TODO defining the cases for "Advanced viz"
+TODO doing the examples Finn
+
+(5th chart)
 
 
-## Session 1: Charts as data
+## 5
+table / wikipedia / observatory site - nicely commented jupyter notebook for scraping wikipedia / tier 2 - bs4, understadning html srouce code and reverse engineering the structure - rbing 5 very nice examples site  / tier 3 just show and tell on how does this work for hte case of a large project - Finns - 
+Notebook
 
-The day starts with ‘The Good, The Bad and The Ugly’ of charts as we briefly discuss charts to make <a href="https://www.playfairprize.com/william-playfair"> data pioneers </a> shudder. In this session analysts build a chart as a JSON specification. These files contain information on where to find the data, and how the axes should look. These chart instructions are themselves a type of data: so they are shareable, replicable and verifiable.
+TODO - Finn/Josh - Colab notebook with comments read_html + bs4 + /Selenium code or presnetation (10 min)
 
-Resources:
-- Including data, three ways: [chart1_data_inline.json]("section 1/chart1_data_inline.json")
-## Session 2: Building a live web site
-By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (GitHub Pages) before creating a space for visualisations and adding some text description (HTML). This site is briefly beautified and personalised (CSS) before we finally embed the charts built in session 1 (JavaScript).
+outcome is  chart where the data is via a scraper (6 charts in total) - the top of the visualisation climbing wall/different routes
 
-## Session 3: Fetching data from APIs
+## 📑 Syllabus
 
-Here we introduce APIs more formally, running through their strengths and pitfalls as sources of data. We also meet some workhorses of programming—if statements and loops—allowing us to batch download data. By the end of this third session, participants will have embedded another chart into their site, this time powered by an API. When new data are released, their chart will update – fully automatically.
+### Session 1 - Charts as data
 
-## Session 4: Advanced visualisations – beyond two dimensions
+General comments
+Tiers within each section / color code it! let's call it the //climbing the visualisation hill!!
 
-By this stage participants have a live site and can update a long list of data series at the click of a button. Session 4 adds interactivity and new dimensions to charts. If time permits, participants can also begin to make choropleth maps (if not we have a video for this). By the end of session 4, the websites will start to come alive, with dropdown menus, hover tools and scrollers adding dynamism to the data.
+### Session 2 - Building your first website
 
-## Session 5:	Scrapers – fetching data programmatically
+`Coordinated by: Prof Richard Davies`  
+  
+🔖 In the first session we introduce HTML, CSS and JavaScript as you build and style your first website. You will also embed your first automated and interactive charts.
 
-Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: Python and JavaScript, then HTML and CSS. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
+#### a.	Introduction + building blocks
 
-## Pre-requisites
-No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
-- Access to a personal GitHub account, accessible via Google Chrome.
-- Access to Google Colaboratory, accessible via a working Google account.
-- Visual Studio Code downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
+-	Motivation   
+What is good Data Science? Where does it sit? Principles.
+- Web building blocks: HTML, CSS and JS  
+(visualisations are _just 🌟 fancy 🌟 websites_ built from components)
+- Building your first interactive web site
+- [GitHub](https://github.com/) pages
+- Introduction 
+
+#### b.	Charting principles
+- The good the bad and the ugly
+- History
+- Good charting guide
+- Making two live and interactive charts
+- Introduction to charting libraries
+
+#### 🎮 Action points
+
+- ▶️ Please watch [this introductory video](https://youtu.be/Sv-O9uwWd7M )
+- Set up your own [GitHub](https://github.com/) account at `username` and repository at `username.github.io`. For example, Richard’s account is `RDEconomist`, so his special repository is `RDEconomist.github.io`. Repositories are like an on-line folder and you can, in general, name them as you wish. But this is a special case, which must be exactly your username. This special repository becomes your website which GitHub hosts for you, *free of charge*. After taking these steps, your GitHub should look like [this](https://github.com/eco-demo-student).
+- Create a demo `index.html` page in your repository and add 3 sentences about yourself.:
+  -  Why are you here?
+  -  What is your level experience?
+  -  What would you like to learn?
+-  You should end up with something like [this](https://eco-demo-student.github.io/).
 
 
-## Data project
+### Session 3 - Accessing data programatically
+
+`Coordinated by: Dr Dénes Csala`  
+
+🔖 In our third session we turn the coding up a notch and access data from the web - including websites but also dedicated data transfer interfaces - *API*s, discussing the benefits, pitfalls and debugging. Visualisations are the language of data for 🧑‍🦲 *humans*, while APIs are the language of data for 🤖 *computers*.
+
+#### a. Introduction to data formats
+
+- `python`
+  - `python` dictionaries and lists
+  - `pandas` - not this one 🐼, 
+  but the excellent [`Python Data Analysis Library`](https://pandas.pydata.org/)
+- `JavaScript`
+  - `JSON` JavaScript Objects and Arrays
+
+#### b. Automated data access 🧙
+
+- `ECO API` - the Economics Observatory's API
+- Introductory web scraping with `pandas` `read_html`
+- Advanced web scraping with `BeautifulSoup`
+- Browser automation with `Selenium`
+
+### Session 4 - Advanced visualisations
+
+`Coordinated by: Dr Dénes Csala`  
+
+🔖 The last session of the day is an introduction to data visualisation principles and data models. We will also set some time aside to work on your personal data projects.
+
+#### a.	The language of data – the grammar of graphics
+
+- Visual encodings
+- The visualization zoo 🦒🦣🦘🦥
+  -  Introduction to chart types
+  - Which chart to use when
+- Data storytelling with interactive charts
+- Basic principles of machine learning
+
+#### b.	Data project
 
 To finish off your course, you will work individualy or in small groups to create a data visualisation portfolio piece. You will be able to choose from a number of datasets, or you can bring your own data (see the **BYOD** section below). Our team be on hand to help you with any questions you might have.
 
@@ -84,6 +205,11 @@ Ideally, your portfolio should include at least `3 charts`:
 -	A chart with automated data loading through an API or web scraping
 -	A chart about a topic that you especially care about
 
+### Session 5 - Data scraping
+
+`Coordinated by: Finn McEvoy`  
+
+🔖 The last session of the day is an introduction to data visualisation 
 
 #### 🎮 Action points
 
