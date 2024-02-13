@@ -1,40 +1,28 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%202/interesting_datasets/med_income_local_authourity.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/simple/med_income_local_authourity.csv"
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "25th_percentile",
+      "title" : "25th Percentile Income",
+      "type": "quantitative",
+      "scale": {"domain": [10000, 30000]}
     },
-    "config": {
-      "locale": {
-          "number": {
-      "decimal": ".",
-      "thousands": ",",
-      "grouping": [3],
-      "currency": ["£", ""]
-          }
-      }
+    "y": {
+      "field": "75th_percentile",
+      "type": "quantitative",
+            "title" : "75th Percentile Income",
+      "scale": {"domain": [20000, 70000]}
     },
-    "mark": "circle",
-    "encoding": {
-      "x": {
-        "field": "25th_percentile",
-        "title" : "25th Percentile Income",
-        "type": "quantitative",
-          "axis" : {"format": "$,.0r"},
-        "scale": {"domain": [10000, 30000]}
-      },
-      "y": {
-        "field": "75th_percentile",
-        "type": "quantitative",
-              "title" : "75th Percentile Income",
-        "axis" : {"format": "$,.0r"},
-        "scale": {"domain": [20000, 70000]}
-      },
-      "color": {"field": "country", "type": "nominal"}
-    },
-    "title": {
-      "text": "Income by Local Authourity",
-      "subtitle": ["25th vs 75th Percentile Pay", "Source: ONS"]
-    },
-    "width": 400,
-    "height": 300
-  }
+    "color": {"field": "country", "type": "nominal"}
+  },
+  "title": {
+    "text": "Income by Local Authourity",
+    "subtitle": ["25th vs 75th Percentile Pay, Gross GBP", "Source: ONS"]
+  },
+  "width": 400,
+  "height": 300
+}

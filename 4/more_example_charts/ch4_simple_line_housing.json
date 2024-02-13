@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%202/interesting_datasets/dwellings_per_capita_timeseries.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/simple/dwellings_per_capita_timeseries.csv"},
   "mark": "line",
   "encoding": {
     "x": {"field": "year", "type": "temporal", "title":null},

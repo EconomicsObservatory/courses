@@ -11,7 +11,7 @@
       "lookup": "id",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%202/interesting_datasets/owid_co2_2022.csv"
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/owid_co2_2022.csv"
         },
         "key": "id",
         "fields": ["value"]

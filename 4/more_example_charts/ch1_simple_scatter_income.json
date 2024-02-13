@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%202/interesting_datasets/med_income_local_authourity.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/simple/med_income_local_authourity.csv"},
   "mark": "circle",
   "encoding": {
     "x": {"field": "25th_percentile", "type": "quantitative"},

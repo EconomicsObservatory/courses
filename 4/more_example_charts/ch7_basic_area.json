@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 400, "height": 300,
-  "data": {"url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/misc/Masterclass/section%202/interesting_datasets/OWID_world_poverty_panel.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/OWID_world_poverty_panel.csv"},
   "mark": "area",
   "title": {
     "text": "Population at Poverty Thresholds",
