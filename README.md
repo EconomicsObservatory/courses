@@ -48,17 +48,17 @@ You will gain the skills and tools needed to create excellent charts. The course
 The day starts with ‘The Good, The Bad and The Ugly’ of charts as we briefly discuss charts to make <a href="https://www.playfairprize.com/william-playfair"> data pioneers </a> shudder. In this session analysts build a chart as a JSON specification. These files contain information on where to find the data, and how the axes should look. These chart instructions are themselves a type of data: so they are shareable, replicable and verifiable.
 
 **Resources:**
-- Including data, three ways: [chart1_data_inline.json](section_1/chart1_data_inline.json), [chart2_data_linked.json](section_1/chart2_data_linked.json) and [chart3_data_from_api.json](section_1/chart3_data_from_api.json)
+- Including data, three ways: [chart1_data_inline.json](1/chart1_data_inline.json), [chart2_data_linked.json](1/chart2_data_linked.json) and [chart3_data_from_api.json](1/chart3_data_from_api.json)
 
 ## Session 2: Building a live web site
 By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (GitHub Pages) before creating a space for visualisations and adding some text description (HTML). This site is briefly beautified and personalised (CSS) before we finally embed the charts built in session 1 (JavaScript).
 
 **Resources:**
-- A template to use for your website: [example_1.html](section_2/example1.html)
+- A template to use for your website: [example_1.html](2/example1.html)
 - Three options for CSS Stylesheets, to customise your website:
-	1. [example_1.css](section_2/example1.css): a clean and full example with all the work done for you
-	2. [example_2.css](section_2/example2.css): a minimal example containing instructions to help you style the website
-	3. [example_3.css](section_2/example3.css): a more complex example, placing charts and descriptions side-by-side 
+	1. [example_1.css](2/example1.css): a clean and full example with all the work done for you
+	2. [example_2.css](2/example2.css): a minimal example containing instructions to help you style the website
+	3. [example_3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
 
 ## Session 3: Fetching data from APIs
 
@@ -70,15 +70,16 @@ By this stage participants have a live site and can update a long list of data s
 
 **Resources**
 - Three advanced chart examples:
-	- Scatter Plots: [example_advanced1.json](section_4/example_advanced1.json) and [example_advanced2.json](section_4/example_advanced2.json),
-	- A basic map:  [example_advanced3.json](section_4/example_advanced3.json)
-- Further examples, increasing in complexity: [more_example_charts](section_4/more_example_charts/)
+	- Scatter Plots: [example_advanced1.json](4/example_advanced1.json) and [example_advanced2.json](4/example_advanced2.json),
+	- A basic map:  [example_advanced3.json](4/example_advanced3.json)
+- Further examples, increasing in complexity: [more_example_charts](4/more_example_charts/)
 
 ## Session 5:	Scrapers – fetching data programmatically
 
 Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: Python and JavaScript, then HTML and CSS. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
 
 **Resources**
+
 - An example of Scraped Data: [g7_meeting_hosts.json](section_5/example_charts/g7_meeting_hosts.json)
 
 ## Pre-requisites
