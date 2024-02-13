@@ -43,53 +43,30 @@ You will gain the skills and tools needed to create excellent charts. The course
 |    5    | 15:30-16:30 | Data scraping | |
 |    6    | 16:30-17:00 | Epilogue||
 
-## 2
-(there is wiggle room here) out of the box html that just works and has a chart on the page - embeddign in 2 wass - direct json in jsvascript, link to json file (this is difficult, needs a lot of config for vega embed and files)  - needs good template files - need to try out the process on the codespace saving files + css - 3 tiers - CSS templates with CSS comments for instructions - including how to publish on github
-HTML
-CSS
-point out script
-JSON - references Vega Lite specs
-Two spec: simple bar chart or alike + real chart we made recently
-Go to Vega eidtor, look at  another spec, bring it into VSCode, save over chart 1
-Then abserve the page changing
-Then bring in anotehr spec and create  a 3rd chart
-back to vega editor, create their own spec, bring it into the envrionment, embed as a 3 chart
-3 simple datasets / eco api
-FULL RAW link to the file itslef in the datsets fodler - README
-We need to create 5 datasets/ 3-4 dimensions, 20 adatapoints each max - nice labels / NICE TO HAVE - more, real-world data
+## Session 1: Charts as data
 
-TODO - Finn/Josh Beefing up the comments / Simple datasets
-TODO - Denes / datasets linking onto README
+The day starts with ‘The Good, The Bad and The Ugly’ of charts as we briefly discuss charts to make <a href="https://www.playfairprize.com/william-playfair"> data pioneers </a> shudder. In this session analysts build a chart as a JSON specification. These files contain information on where to find the data, and how the axes should look. These chart instructions are themselves a type of data: so they are shareable, replicable and verifiable.
 
-## 2-3 break
-ANY CHART ANY DATA - BYOD - lets convince 3-4 people 
+## Session 2: Building a live web site
+By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (GitHub Pages) before creating a space for visualisations and adding some text description (HTML). This site is briefly beautified and personalised (CSS) before we finally embed the charts built in session 1 (JavaScript).
 
-TODO - Charlie should sned out an alert for BYOD? 2 days before?
+## Session 3: Fetching data from APIs
 
-Customising to your needs
-Intro to Colab? - already in the video
+Here we introduce APIs more formally, running through their strengths and pitfalls as sources of data. We also meet some workhorses of programming—if statements and loops—allowing us to batch download data. By the end of this third session, participants will have embedded another chart into their site, this time powered by an API. When new data are released, their chart will update – fully automatically.
 
-## 3
-python in dekstop/codespace, but it needs setup) - Slides - here we will need a precise intructions on how to copy paste files between the systems      | 20 min slides / 40 min coding !
-Default Colab Colab links only, NO ipynb FILES
-Embed one more chart - custom data, not prepackaged example / introduce python for loops and if statements
+## Session 4: Advanced visualisations – beyond two dimensions
 
-Python examples need creating from scratch
-General intro section / vairabels/operations/colab interface Markdown comments
-IF statement
-For loop - with dummy data
-Data strcutures - list dictionayr - translated into JSON array/object but the syntax stays the same
-Load csv data with pandas
-Loop through loading multiple datasets - merging them toegether
-Basic pandas transformation -referenceing columns, rows, replacing nulls, erorrs, strings edits, cerating new columns, summarization/groupby
-Stick to CSV
-ANother JSON file that they can embed into their website
-  Then a chart spec json.
-  Data source csv
-  Chart spec needs to references the data source csv
+By this stage participants have a live site and can update a long list of data series at the click of a button. Session 4 adds interactivity and new dimensions to charts. If time permits, participants can also begin to make choropleth maps (if not we have a video for this). By the end of session 4, the websites will start to come alive, with dropdown menus, hover tools and scrollers adding dynamism to the data.
 
-TODO - Denes start and defined structure / pregenerated file export for hte looped dataset
-TODO - Josh - fill with content FOR example
+## Session 5:	Scrapers – fetching data programmatically
+
+Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: Python and JavaScript, then HTML and CSS. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
+
+## Pre-requisites
+No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
+- Access to a personal GitHub account, accessible via Google Chrome.
+- Access to Google Colaboratory, accessible via a working Google account.
+- Visual Studio Code downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
 
 ## 4
 what is section 1 now / streamline the reaminign of section 1 / code-along examples for 3 and 4 D visuals - e.g. scatter plot with circle sizes or colors, tier 2 - 4D tooltip/shape, trellis/ tier 3 - map, parallel cordinates or something exotic - these are difficult, so lots' of examples on every level / data transformations / aggregate/calculated variable and join for the geojson
