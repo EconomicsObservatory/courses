@@ -79,8 +79,14 @@ By this stage participants have a live site and can update a long list of data s
 Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: Python and JavaScript, then HTML and CSS. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
 
 **Resources**
-
-- An example of Scraped Data: [g7_meeting_hosts.json](section_5/example_charts/g7_meeting_hosts.json)
+- Basic Scraping - Extracting data from Wikipedia
+	- [Google Colab Notebook](https://colab.research.google.com/drive/10kUr4WWFIQYT8A3OShUmeOJPiM62V6o4?usp=sharing)
+	- Example Scraped Data: [g7_meeting_hosts.json](5/g7_meeting_hosts.json) 
+	- Example Chart Scraped Data: [chart_g7_meeting_hosts.json](5/example_charts/g7_meeting_hosts.json)
+- Advanced Scraping - HTML scraping
+	- [Google Colab Notebook](https://colab.research.google.com/drive/1G_1LEeKJBECRMe7ucgddFM2TO0MbWzUe?usp=sharing)
+	- Example Scraped Data: [top_words.csv](5/top_words.csv)
+	- Example Chart Scraped Data: [chart_eco_top_words](5/example_charts/top_words.csv)
 
 ## Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
