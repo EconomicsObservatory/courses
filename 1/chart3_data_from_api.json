@@ -3,12 +3,9 @@
   "description": "A chart showing quarter-on-4-quarter GDP Growth using ONS data from the ECO API.",
   "data": {"url": "https://api.economicsobservatory.com/gbr/grow?vega"},
   "mark": "line",
-  "transform": [
-    {"calculate": "datum.value/100", "as": "value"}
-  ],
   "encoding": {
     "x": {"field": "date", "type": "temporal", "title":null},
-    "y": {"field": "value", "type": "quantitative", "axis":{"format":".0%"}, "title":null}
+    "y": {"field": "value", "type": "quantitative", "title":null}
   },
   "width": 400,
   "height": 300,
