@@ -7,18 +7,36 @@
   "description": "A simple bar chart with embedded data.",
   "data": {
     "values": [
-      {"Country": "Denmark", "GDP Per Capita": 74897.0},
-      {"Country": "United States", "GDP Per Capita": 76329.6},
-      {"Country": "Netherlands", "GDP Per Capita": 70869.4},
-      {"Country": "France", "GDP Per Capita":       55387.5},
-      {"Country": "United Kingdom", "GDP Per Capita": 54929.8},
-      {"Country": "Italy", "GDP Per Capita": 52804.0}
-    ]
+        {
+            "Country": "China",
+            "GDP per capita": 21482
+        },
+        {
+            "Country": "DR Congo.",
+            "GDP per capita": 1337
+        },
+        {
+            "Country": "UK",
+            "GDP per capita": 54929
+        },
+        {
+            "Country": "India",
+            "GDP per capita": 8400
+        },
+        {
+            "Country": "Nigeria",
+            "GDP per capita": 5862
+        },
+        {
+            "Country": "USA",
+            "GDP per capita": 76329
+        }
+    ] 
   },
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Country", "type": "nominal", "axis":{"title":null}, "sort":"y"},
-    "y": {"field": "GDP Per Capita", "type": "quantitative", "axis":{"format":"$,.0r"}}
+    "x": {"field": "Country", "type": "nominal", "title":"", "sort":"y"},
+    "y": {"field": "GDP per capita", "type": "quantitative"}
   },
   "width": 400,
   "height": 300
