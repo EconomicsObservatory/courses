@@ -83,12 +83,12 @@ Sometimes there is no API is available and there is no obvious source of data in
 **Resources**
 - Basic Scraping - Extracting data from Wikipedia
 	- [Google Colab Notebook](https://colab.research.google.com/drive/10kUr4WWFIQYT8A3OShUmeOJPiM62V6o4?usp=sharing)
-	- Example Scraped Data: [g7_meeting_hosts.json](5/g7_meeting_hosts.json) 
-	- Example Chart Scraped Data: [chart_g7_meeting_hosts.json](5/example_charts/g7_meeting_hosts.json)
+	- Example Scraped Data: g7_summits.csv](5/g7_summits.csv) 
+	- Example Chart Scraped Data: [chart_g7_meeting_hosts.json](5/example_charts/chart_g7_meeting_hosts.json)
 - Advanced Scraping - HTML scraping
 	- [Google Colab Notebook](https://colab.research.google.com/drive/1G_1LEeKJBECRMe7ucgddFM2TO0MbWzUe?usp=sharing)
 	- Example Scraped Data: [top_words.csv](5/top_words.csv)
-	- Example Chart Scraped Data: [chart_eco_top_words](5/example_charts/top_words.csv)
+	- Example Chart Scraped Data: [chart_eco_top_words](5/example_charts/chart_eco_top_words.json)
 
 ## Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
