@@ -1,3 +1,15 @@
+# 📊 Datasets
+**BYOD: We encourage you to Bring Your Own Data to the masterclass**.   
+It can be data about everything, the financial report from the the last quarter or your sales logbook from your small coffee shop. It can be in any format `CSV, Excel, Stata, Matlab, JSON, etc.`  - or even just a table from a website, up to a cumbersome `API` call, we'll work with it.
+
+If you want to look beyond, these data repositories are widely used by the community  
+- https://huggingface.co/datasets  
+- https://visualdata.io/discovery  
+- https://paperswithcode.com/datasets  
+
+Below, you can find some example datasets that you might want to use today.
+
+## Sample Datasets
 
 | Dataset | Description | Raw URL | Source |
 | ---- | ---- | ---- | ---- |
@@ -11,17 +23,10 @@
 | Micro-chips | 50 years of microchip history, identified by Transistor counts [Complex] | https://raw.githubusercontent.com/EconomicsObservatory/courses/main/data/datasets/advanced/50_years_of_chips.csv | [Wikipedia](https://en.wikipedia.org/wiki/Transistor_count) |
 | R&D | Simple R&D statistics for P21 countries | https://raw.githubusercontent.com/EconomicsObservatory/courses/main/data/datasets/simple/wb_r_and_d.csv | [WorldBank](https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS) |
 
-## 📊 Datasets
-**BYOD: We encourage you to Bring Your Own Data to the masterclass**.   
-It can be data about everything, the financial report from the the last quarter or your sales logbook from your small coffee shop. It can be in any format `CSV, Excel, Stata, Matlab, JSON, etc.`  - or even just a table from a website, up to a cumbersome `API` call, we'll work with it.
 
 
-If you want to look beyond, these data repositories are widely used by the community  
-- https://huggingface.co/datasets  
-- https://visualdata.io/discovery  
-- https://paperswithcode.com/datasets  
 
-#### 🎮 Action points
+## 🎮 Action points
 
 - If you **BYOD**, the	targeted complexity should be around `1000 data points` in at least `3 dimensions`. Say you have a small shop and you have sales data about `3` products – this counts as `3` dimensions: the `sales value` (time series), the `time` (record date) and the `product` (name). Even better if you have this for different `cities` – a `4`th dimension.
 
@@ -29,7 +34,7 @@ If you want to look beyond, these data repositories are widely used by the commu
 
 🦏 If you *really* know what you are doing, send us a link to your `*.ipynb` file or *Colab notebook* with any questions related to it a day before the class.
 
-### Dataset Finders
+## Dataset Finders
  
 Similar to how [Google Scholar](https://scholar.google.com/) works, [Google Dataset Search](https://toolbox.google.com/datasetsearch) lets you find datasets wherever they are hosted, whether it’s a publisher’s site, a digital library, or an author’s web page. It’s a phenomenal dataset finder, and it contains over 25 million datasets.
 
