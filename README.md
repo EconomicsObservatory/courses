@@ -47,16 +47,15 @@ No prior coding experience is required. However, participants’ laptops will ne
 | 15:15 - 15:30 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
 | 15.30 - 16.30 | 5       | Scraping – fetching data with Python                |
 
-
 ## Session 1: Charts as data
 
 The day starts with an introduction from the **Economics Observatory Data Team**. In this session analysts build a chart as a `JSON` specification. These files contain information on where to find the data, and how the axes should look. These chart instructions are themselves a type of data: so they are shareable, replicable and verifiable.
 
 **Resources:**
 - Including data, delivered into your chart in three ways: 
-	  1. [chart1_data_inline.json](1/chart1_data_inline.json)
-	  2. [chart2_data_linked.json](1/chart2_data_linked.json)
-	  3. [chart3_data_from_api.json](1/chart3_data_from_api.json)
+	1. [chart1_data_inline.json](1/chart1_data_inline.json)
+	2. [chart2_data_linked.json](1/chart2_data_linked.json)
+	3. [chart3_data_from_api.json](1/chart3_data_from_api.json)
 
 ## Session 2: Building a live web site
 By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (`GitHub Pages`) before creating a space for visualisations and adding some text description (`HTML`). This site is briefly beautified and personalised (`CSS`) before we finally embed the charts built in session 1 (`JavaScript`).
