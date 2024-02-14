@@ -74,14 +74,13 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in `python` language. We will use the online code editor `Google Colab` for this.
-	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example
- that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
- 	- Downloaded data files
- 		- data_FRED-DGS10.json
- 		- data_FRED-PCEPI.json
- 	- Chart specification files
- 		- chart1.json
- 		- chart2.json
+	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
+- Downloaded data files
+ 		- [data_FRED-DGS10.json](3/data_FRED-DGS10.json)
+ 		- [data_FRED-PCEPI.json](3/data_FRED-PCEPI.json)
+- Chart specification files:
+	- [chart_FRED-DGS10.json](3/chart_FRED-DGS10.json)
+	- [chart_FRED-PCEPI.json](3/chart_FRED-PCEPI.json)
 
 ## Session 4: Advanced visualisations – beyond two dimensions
 
@@ -109,7 +108,7 @@ Sometimes there is no API is available and there is no obvious source of data in
 - Advanced Scraping - HTML scraping
 	- [🗻 Session_5_Scraping_advanced.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping_advanced.ipynb) - opens in `Colab`
 	- Example Scraped Data: [top_words.csv](5/top_words.csv)
-	- Example Chart Scraped Data: [chart_eco_top_words](5/example_charts/chart_eco_top_words.json)
+	- Example Chart Scraped Data: [chart_eco_top_words.json](5/example_charts/chart_eco_top_words.json)
 
 ## 🚀 Takeaways
 
