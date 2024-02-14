@@ -66,6 +66,9 @@ By now participants have a live chart ready to embed. Next, they build their own
 	1. [🥾 example1.css](2/example1.css): a clean and full example with all the work done for you
 	2. [👟 example2.css](2/example2.css): a minimal example containing instructions to help you style the website
 	3. [🗻 example3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
+- Two example charts, to start your website:
+	1. [basic_chart_example.json](2/basic_chart_example.json): a simple bar chart showing HDI for 21 countries
+	2. [advanced_chart_example.json](2/advanced_chart_example.json): an interactive scatter plot, showing Vega-lite's potential
 
 ## Session 3: Fetching data from APIs
 
