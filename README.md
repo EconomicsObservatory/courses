@@ -22,9 +22,9 @@ Our data visualisation masterclass will take you from a being complete beginner 
 
 Throughout the course, we will offer and support 3 routes up the data mountain:
 
-  - 🥾 Hiker - best suited for those who have created some nicer-looking charts before, trialing various tools, but didn't really approach the subject in a structured way.
-  - 👟 Trail runner - best suited for those who can cruise through basic functions such as setting up coding environments and we can focus on the visualisation part straight away
-  - 🗻 Mountaineer - best suited for those who have spent a bivouac debugging data scraper running overnight
+  - **🥾 Hiker** - best suited for those who have created some nicer-looking charts before, trialing various tools, but didn't really approach the subject in a structured way.
+  - **👟 Trail runner** - best suited for those who can cruise through basic functions such as setting up coding environments and we can focus on the visualisation part straight away
+  - **🗻 Mountaineer** - best suited for those who have spent a bivouac debugging data scraper running overnight
 
 You will gain the skills and tools needed to create excellent charts. The course will also signpost additional resources to develop the ideas further, allowing participants to gain confidence in their own abilities and teach others. The latter stages of the course will delve deeper into the current information representation and science communication theory, exploring more advanced data visualisation methods.
 
@@ -64,9 +64,9 @@ By now participants have a live chart ready to embed. Next, they build their own
 **Resources:**
 - A template to use for your website: [example1.html](2/example1.html)
 - Three options for CSS Stylesheets, to customise your website:
-	1. [example1.css](2/example1.css): a clean and full example with all the work done for you
-	2. [example2.css](2/example2.css): a minimal example containing instructions to help you style the website
-	3. [example3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
+	1. [🥾 example1.css](2/example1.css): a clean and full example with all the work done for you
+	2. [👟 example2.css](2/example2.css): a minimal example containing instructions to help you style the website
+	3. [🗻 example3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
 
 ## Session 3: Fetching data from APIs
 
@@ -89,34 +89,38 @@ By this stage participants have a live site and can update a long list of data s
 
 **Resources**
 - Three advanced chart examples:
-	- Scatter Plots: [example_advanced1.json](4/example_advanced1.json) and [example_advanced2.json](4/example_advanced2.json),
-	- A basic map:  [example_advanced3.json](4/example_advanced3.json)
-- Further examples, increasing in complexity: [more_example_charts](4/more_example_charts/)
+	- Scatter Plots: 
+		- [🥾 example_advanced1.json](4/example_advanced1.json)
+        - [👟 example_advanced2.json](4/example_advanced2.json)
+	- A basic map:  
+		- [👟 example_advanced3.json](4/example_advanced3.json)
+- Further examples, increasing in complexity: 
+	- [🗻 more_example_charts](4/more_example_charts/)
 
 ## Session 5:	Scrapers – fetching data programmatically
 
-Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: Python and JavaScript, then HTML and CSS. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
+Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: `Python` and `JavaScript`, then `HTML` and `CSS`. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
 
 **Resources**
 - Basic Scraping - Extracting data from Wikipedia
-	- [Google Colab Notebook](https://colab.research.google.com/drive/10kUr4WWFIQYT8A3OShUmeOJPiM62V6o4?usp=sharing)
-	- Example Scraped Data: g7_summits.csv](5/g7_summits.csv) 
+	- [👟 Session_5_Scraping_basic.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping_basic.ipynb) - opens in `Colab`
+	- Example Scraped Data: [g7_summits.csv](5/g7_summits.csv) 
 	- Example Chart Scraped Data: [chart_g7_meeting_hosts.json](5/example_charts/chart_g7_meeting_hosts.json)
 - Advanced Scraping - HTML scraping
-	- [Google Colab Notebook](https://colab.research.google.com/drive/1G_1LEeKJBECRMe7ucgddFM2TO0MbWzUe?usp=sharing)
+	- [🗻 Session_5_Scraping_advanced.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping_advanced.ipynb) - opens in `Colab`
 	- Example Scraped Data: [top_words.csv](5/top_words.csv)
 	- Example Chart Scraped Data: [chart_eco_top_words](5/example_charts/chart_eco_top_words.json)
 
 ## 🚀 Takeaways
 
-### 1.  Personal webpage
+#### 1.  Personal webpage
 - GitHub account with a repository created to serve as your personal webpage, configured, styled and formatted
-### 2. Data portfolio
+#### 2. Data portfolio
 - `3` interactive data visualisations including one chart with an interactive element and another one with *live* data served from an API or scraped from a website.
-### 3. A new skillset
+#### 3. A new skillset
 - The language of data *is* visualisation and by the end of this course you will have learnt how to introduce yourself in this new language.
 
-#### 🎮 Action points
+##### 🎮 Action points
 
 - Please think about what you might include in your portfolio and what data you might use. You can use any data you like, but we will also provide some datasets for you to use.
 - If you would like to create a specific chart, we can help you build it - but consider the range of possibilities in the [Vega-Lite Example Gallery](https://vega.github.io/vega-lite/examples/). 
