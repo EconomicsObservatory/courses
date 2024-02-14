@@ -64,6 +64,8 @@ By now participants have a live chart ready to embed. Next, they build their own
 
 Here we introduce APIs more formally, running through their strengths and pitfalls as sources of data. We also meet some workhorses of programming—if statements and loops—allowing us to batch download data. By the end of this third session, participants will have embedded another chart into their site, this time powered by an API. When new data are released, their chart will update – fully automatically.
 
+[Workbook](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb)
+
 ## Session 4: Advanced visualisations – beyond two dimensions
 
 By this stage participants have a live site and can update a long list of data series at the click of a button. Session 4 adds interactivity and new dimensions to charts. If time permits, participants can also begin to make choropleth maps (if not we have a video for this). By the end of session 4, the websites will start to come alive, with dropdown menus, hover tools and scrollers adding dynamism to the data.
