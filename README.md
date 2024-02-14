@@ -30,9 +30,9 @@ You will gain the skills and tools needed to create excellent charts. The course
 
 ## Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
-- Access to a personal GitHub account, accessible via Google Chrome.
-- Access to Google Colaboratory, accessible via a working Google account.
-- Visual Studio Code downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
+- Access to a personal `GitHub` account, accessible via Google Chrome.
+- Access to `Google Colaboratory`, accessible via a working Google account.
+- `Visual Studio Code` downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
 
 ## 🕒 Schedule
 | Time          | Section | Details                                             |
@@ -50,26 +50,38 @@ No prior coding experience is required. However, participants’ laptops will ne
 
 ## Session 1: Charts as data
 
-The day starts with ‘The Good, The Bad and The Ugly’ of charts as we briefly discuss charts to make <a href="https://www.playfairprize.com/william-playfair"> data pioneers </a> shudder. In this session analysts build a chart as a JSON specification. These files contain information on where to find the data, and how the axes should look. These chart instructions are themselves a type of data: so they are shareable, replicable and verifiable.
+The day starts with an introduction from the **Economics Observatory Data Team**. In this session analysts build a chart as a `JSON` specification. These files contain information on where to find the data, and how the axes should look. These chart instructions are themselves a type of data: so they are shareable, replicable and verifiable.
 
 **Resources:**
-- Including data, three ways: [chart1_data_inline.json](1/chart1_data_inline.json), [chart2_data_linked.json](1/chart2_data_linked.json) and [chart3_data_from_api.json](1/chart3_data_from_api.json)
+- Including data, delivered into your chart in three ways: 
+  1. [chart1_data_inline.json](1/chart1_data_inline.json)
+  1. [chart2_data_linked.json](1/chart2_data_linked.json)
+  1. [chart3_data_from_api.json](1/chart3_data_from_api.json)
 
 ## Session 2: Building a live web site
-By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (GitHub Pages) before creating a space for visualisations and adding some text description (HTML). This site is briefly beautified and personalised (CSS) before we finally embed the charts built in session 1 (JavaScript).
+By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (`GitHub Pages`) before creating a space for visualisations and adding some text description (`HTML`). This site is briefly beautified and personalised (`CSS`) before we finally embed the charts built in session 1 (`JavaScript`).
 
 **Resources:**
-- A template to use for your website: [example_1.html](2/example1.html)
+- A template to use for your website: [example1.html](2/example1.html)
 - Three options for CSS Stylesheets, to customise your website:
-	1. [example_1.css](2/example1.css): a clean and full example with all the work done for you
-	2. [example_2.css](2/example2.css): a minimal example containing instructions to help you style the website
-	3. [example_3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
+	1. [example1.css](2/example1.css): a clean and full example with all the work done for you
+	2. [example2.css](2/example2.css): a minimal example containing instructions to help you style the website
+	3. [example3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
 
 ## Session 3: Fetching data from APIs
 
 Here we introduce APIs more formally, running through their strengths and pitfalls as sources of data. We also meet some workhorses of programming—if statements and loops—allowing us to batch download data. By the end of this third session, participants will have embedded another chart into their site, this time powered by an API. When new data are released, their chart will update – fully automatically.
 
-[Workbook](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb)
+**Resources**
+- This session starts to introduce you to coding in `python` language. We will use the online code editor `Google Colab` for this.
+	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example
+ that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
+ 	- Downloaded data files
+ 		- data_FRED-DGS10.json
+ 		- data_FRED-PCEPI.json
+ 	- Chart specification files
+ 		- chart1.json
+ 		- chart2.json
 
 ## Session 4: Advanced visualisations – beyond two dimensions
 
