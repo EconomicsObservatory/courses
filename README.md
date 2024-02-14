@@ -115,7 +115,7 @@ Sometimes there is no API is available and there is no obvious source of data in
 #### 1.  Personal webpage
 - GitHub account with a repository created to serve as your personal webpage, configured, styled and formatted
 #### 2. Data portfolio
-- `3` interactive data visualisations including one chart with an interactive element and another one with *live* data served from an API or scraped from a website.
+- 6 charts from a wide range of data sources – including batch downloads, an API, and a web scraper – embedded into your personal page. At least one higher-dimension/interactive visualisation added too.
 #### 3. A new skillset
 - The language of data *is* visualisation and by the end of this course you will have learnt how to introduce yourself in this new language.
 
