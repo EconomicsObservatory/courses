@@ -54,9 +54,9 @@ The day starts with an introduction from the **Economics Observatory Data Team**
 
 **Resources:**
 - Including data, delivered into your chart in three ways: 
-  1. [chart1_data_inline.json](1/chart1_data_inline.json)
-  1. [chart2_data_linked.json](1/chart2_data_linked.json)
-  1. [chart3_data_from_api.json](1/chart3_data_from_api.json)
+	  1. [chart1_data_inline.json](1/chart1_data_inline.json)
+	  2. [chart2_data_linked.json](1/chart2_data_linked.json)
+	  3. [chart3_data_from_api.json](1/chart3_data_from_api.json)
 
 ## Session 2: Building a live web site
 By now participants have a live chart ready to embed. Next, they build their own website, discovering the simple tools that allow this. We make a live site (`GitHub Pages`) before creating a space for visualisations and adding some text description (`HTML`). This site is briefly beautified and personalised (`CSS`) before we finally embed the charts built in session 1 (`JavaScript`).
@@ -76,8 +76,8 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 - This session starts to introduce you to coding in `python` language. We will use the online code editor `Google Colab` for this.
 	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
 - Downloaded data files
- 		- [data_FRED-DGS10.json](3/data_FRED-DGS10.json)
- 		- [data_FRED-PCEPI.json](3/data_FRED-PCEPI.json)
+	- [data_FRED-DGS10.json](3/data_FRED-DGS10.json)
+	- [data_FRED-PCEPI.json](3/data_FRED-PCEPI.json)
 - Chart specification files:
 	- [chart_FRED-DGS10.json](3/chart_FRED-DGS10.json)
 	- [chart_FRED-PCEPI.json](3/chart_FRED-PCEPI.json)
