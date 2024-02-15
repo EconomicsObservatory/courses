@@ -134,7 +134,7 @@ Sometimes there is no API is available and there is no obvious source of data in
 - If you would like to create a specific chart, we can help you build it – but consider the range of possibilities in the [Vega-Lite Example Gallery](https://vega.github.io/vega-lite/examples/).
 
 
-🗂️ ### Resources
+### 🗂️ Resources
 
 - [Heroes and heroines](https://www.playfairprize.com/william-playfair)   
 Biographies of some key figures in data, past and present.
