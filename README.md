@@ -28,7 +28,7 @@ Throughout the course, we will offer and support 3 routes up the data mountain:
 
 You will gain the skills and tools needed to create excellent charts. The course will also signpost additional resources to develop the ideas further, allowing you to gain confidence in your own abilities and even teach others. The latter stages of the course will delve deeper into the theory, exploring more advanced methods for data access and visualisation.
 
-## Pre-requisites
+## 🛠️ Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
 - Access to a personal `GitHub` account, accessible via Google Chrome.
 - Access to `Google Colaboratory`, accessible via a working Google account.
