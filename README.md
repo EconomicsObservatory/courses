@@ -51,7 +51,7 @@ No prior coding experience is required. However, participants’ laptops will ne
 
 The day starts with an introduction from the **Economics Observatory Data Team**. In this session analysts build a chart as a ‘JSON specification’ (the modern way). These files contain information on where to find the data, and how the axes should look. These chart instructions are _themselves_ a type of data: they are shareable, replicable and verifiable.
 
-✅ **Resources:**
+**Resources:**
 - We have prepared three example files highlighting the ‘charts as data’ principle, including the underlying data we want to display, delivered into your chart in three ways:
 	1. [chart1_data_inline.json](1/chart1_data_inline.json)
 	2. [chart2_data_linked.json](1/chart2_data_linked.json)
