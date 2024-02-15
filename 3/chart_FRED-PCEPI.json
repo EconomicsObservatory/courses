@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Google's stock price over time.",
+  "description": "A PCE Price Index Chart",
   "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/3/data_FRED-PCEPI.json", "format":{"type": "json", "property": "observations"}},
   "title": {
     "text": "PCE Price Index",

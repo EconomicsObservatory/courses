@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Google's stock price over time.",
+  "description": "A chart showing 10-Year U.S. Treasury Yields",
   "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/3/data_FRED-DGS10.json", "format":{"type": "json", "property": "observations"}},
   "title": {
     "text": "10-Year U.S. Treasury Yield",
