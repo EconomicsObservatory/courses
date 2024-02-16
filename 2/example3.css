@@ -5,6 +5,12 @@
 /* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
 
 
+/* We're importing a font - Raleway - from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+/* Do you want to use a different font? Go to https://fonts.google.com/ and pick one! */
+
+
+
 body { /* We can style any HTML element by using its name - here we're styling the body */
     /* We want text that uses a clean sans-serif font, is usually 16px big and close to black */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -31,6 +37,10 @@ body { /* We can style any HTML element by using its name - here we're styling t
   
   h1 {
     font-size: 3em;
+    font-family: "Raleway", sans-serif; 
+    font-weight: 800;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
   
   h2 {
