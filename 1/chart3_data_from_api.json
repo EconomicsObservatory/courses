@@ -1,7 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "title": "British GDP Growth (QoQ4)",
+  "title": {
+    "text":"British GDP Growth",
+    "subtitle": ["QoQ4 % Growth", "Source: ONS via ECO-API"]
+  },
 
   "width": 400,
   "height": 300,
