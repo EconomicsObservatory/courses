@@ -1,16 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A chart showing quarter-on-4-quarter GDP Growth using ONS data from the ECO API.",
-  "data": {"url": "https://api.economicsobservatory.com/gbr/grow?vega"},
-  "mark": "line",
-  "encoding": {
-    "x": {"field": "date", "type": "temporal", "title":null},
-    "y": {"field": "value", "type": "quantitative", "title":null}
-  },
+
+  "title": "British GDP Growth (QoQ4)",
+
   "width": 400,
   "height": 300,
-  "title": {
-    "text":"British GDP Growth",
-    "subtitle": ["QoQ4 % Growth", "Source: ONS via ECO-API"]
-    }
+
+  "data": {"url": "https://api.economicsobservatory.com/gbr/grow?vega"},
+
+  "mark": "line",
+
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative", "title":null}
+  }
 }
