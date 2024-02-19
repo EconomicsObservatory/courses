@@ -10,7 +10,7 @@ An interactive masterclass by the **Economics Observatory**
 | [**Visualisations**](https://github.com/EconomicsObservatory/ECOvisualisations)
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
 | [**API**](https://github.com/EconomicsObservatory/api)
-|
+| [**Attendance Sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit?usp=sharing)
 
 Welcome to our interactive data masterclass. At the **Economics Observatory (ECO)** we believe that the future of effective science communication is a blend of data and text. Dashboards without context are too cluttered and text without explanatory graphics is difficult to grasp.
 
