@@ -22,6 +22,7 @@ Below, you can find some example datasets that you might want to use today.
 | World Poverty | World population living at different poverty thresholds | https://raw.githubusercontent.com/EconomicsObservatory/courses/main/data/datasets/advanced/OWID_world_poverty_panel.csv | [OWID](https://ourworldindata.org/grapher/distribution-of-population-between-different-poverty-thresholds-historical) |
 | Micro-chips | 50 years of microchip history, identified by Transistor counts [Complex] | https://raw.githubusercontent.com/EconomicsObservatory/courses/main/data/datasets/advanced/50_years_of_chips.csv | [Wikipedia](https://en.wikipedia.org/wiki/Transistor_count) |
 | R&D | Simple R&D statistics for P21 countries | https://raw.githubusercontent.com/EconomicsObservatory/courses/main/data/datasets/simple/wb_r_and_d.csv | [WorldBank](https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS) |
+| UN Living Standards | Life Expectancy, Happiness, GDP pc, Fertility  | https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/simple/UN_living_standards.csv | UN |
 
 
 
