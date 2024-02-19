@@ -56,7 +56,7 @@ The day starts with an introduction from the **Economics Observatory Data Team*
 	1. [chart1_data_inline.json](1/chart1_data_inline.json)
 	2. [chart2_data_linked.json](1/chart2_data_linked.json)
 	3. [chart3_data_from_api.json](1/chart3_data_from_api.json)
-- Slides: [1_Charts_as_data.pptx](1/1_Charts_as_data.pptx)
+- Slides: [1_Charts_as_data.pdf](1/1_Charts_as_data.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen all three JSON types, and will have added one of these files to your personal GitHub repository.
 ## Session 2: Building a live web site
@@ -71,7 +71,7 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 - Two example charts, to start your website:
 	1. [basic_chart_example.json](2/basic_chart_example.json): a simple bar chart showing the human development index (HDI) for 21 countries
 	2. [advanced_chart_example.json](2/advanced_chart_example.json): 1. an interactive scatter plot, showing Vega-Lite's potential
-- Slides: [2_Building_your_first_website.pptx](2/2_Building_your_first_website.pptx)
+- Slides: [2_Building_your_first_website.pdf](2/2_Building_your_first_website.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have your own website, with its own customised text and design. Your website will have at least three stunning charts.
 
@@ -88,7 +88,7 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 - Chart specification files (here we display the data, in JSON form once again):
 	- [chart_FRED-DGS10.json](3/chart_FRED-DGS10.json)
 	- [chart_FRED-PCEPI.json](3/chart_FRED-PCEPI.json)
-- Slides: [3_Accessing_data_programmatically.pptx](3/3_Accessing_data_programmatically.pptx)
+- Slides: [3_Accessing_data_programmatically.pdf](3/3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).
 ## Session 4: Advanced visualisations – beyond two dimensions
@@ -104,7 +104,7 @@ By this stage you have a live site and can update a long list of data series at 
 		- [👟 example_advanced3.json](4/example_advanced3.json)
 - Further examples, increasing in complexity: 
 	- [🗻 more_example_charts](4/more_example_charts/)
-- Slides: [4_Advanced_visualisations.pptx](4/4_Advanced_visualisations.pptx)
+- Slides: [4_Advanced_visualisations.pdf](4/4_Advanced_visualisations.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have explored a range of interactive and multi-dimension charts, and added at least one of them to your website. This is a change to explore and edit, helping your page to come alive.
 
@@ -121,7 +121,7 @@ Sometimes there is no API is available and there is no obvious source of data in
 	- [🗻 Session_5_Scraping_advanced.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping_advanced.ipynb) - opens in `Colab`
 	- Example Scraped Data: [top_words.csv](5/top_words.csv)
 	- Example Chart Scraped Data: [chart_eco_top_words.json](5/chart_eco_top_words.json)
-- Slides: [5_scraping_data.pptx](5/5_scraping_data.pptx)
+- Slides: [5_scraping_data.pdf](5/5_scraping_data.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like Wikipedia. You will also have added one last chart to your website, displaying data accessed via a scraper.
 ## 🚀 Takeaways
