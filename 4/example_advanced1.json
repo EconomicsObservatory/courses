@@ -1,28 +1,78 @@
-{
+{ 
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/simple/med_income_local_authourity.csv"
+
+  "description": "Various US measures state by state",
+
+  "title": {
+    "text": "Gun deaths and income - US states",
+    "subtitle":["Median income (x), firearm deaths per 100k population (y), prison rate per 100 pop. (bubble size)",""],
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
   },
-  "mark": "circle",
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/usa_socioEconomic.csv",
+    "format":{"type":"csv"}},
+
+  "mark": {
+    "type":"circle",
+    "size":150,
+    "color":"rgb(0,67,167)",
+    "opacity":0.6},
+  
+  "height": 300,
+  "width": 400,
+
+  "transform": [
+    {"calculate": "datum.PrisonRate * 1000", "as": "PrisonRatePer100k"}
+  ],
+
   "encoding": {
     "x": {
-      "field": "25th_percentile",
-      "title" : "25th Percentile Income",
+      "field": "medIncome", 
       "type": "quantitative",
-      "scale": {"domain": [10000, 30000]}
+      "scale": {
+        "domain": [40000, 80000]
+      },
+      "axis": {
+        "title": "Median Income"
+      }
     },
+
     "y": {
-      "field": "75th_percentile",
+      "field": "FirearmDeaths", 
       "type": "quantitative",
-            "title" : "75th Percentile Income",
-      "scale": {"domain": [20000, 70000]}
+      "axis": {
+        "title": "Firearm Deaths"
+      }
     },
-    "color": {"field": "country", "type": "nominal"}
-  },
-  "title": {
-    "text": "Income by Local Authourity",
-    "subtitle": ["25th vs 75th Percentile Pay, Gross GBP", "Source: ONS"]
-  },
-  "width": 400,
-  "height": 300
+
+    "color": {
+      "field": "GeographicDivision", 
+      "type": "ordinal",
+      "scale": {
+        "scheme": "set1"
+      },
+      "legend": {
+        "title": null
+      }
+    },
+
+    "size": {
+      "field": "PrisonRate", 
+      "type": "quantitative",
+      "title": "Prison Rate",
+      "scale": {
+        "range": [5, 300]
+      }
+    },
+    "tooltip": [
+      {"field": "State"},
+      {"field": "medIncome", "format": "$,", "title": "Median Income"},
+      {"field": "FirearmDeaths", "format": ",", "title":"Firearm Deaths"},
+      {"field": "ImprisonmentRate", "format": ",", "title":"Prison Rate"}
+    ]
+  }
 }
