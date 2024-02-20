@@ -55,7 +55,7 @@ The day starts with an introduction from the **Economics Observatory Data Team*
 	1. Inline: [s1_chart1.json](1/s1_chart1.json)
 	2. Linked: [s1_chart2.json](1/s1_chart2.json)
 	3. API: [s1_chart3.json](1/s1_chart3.json)
-- Slides: [1_Charts_as_data.pdf](1/1_Charts_as_data.pdf)
+- Slides: [s1_Charts_as_data.pdf](1/s1_Charts_as_data.pdf)
 - We have also prepared 5 very simple datasets to try using with Vega-lite.
 	- 👟[s1_example_data](1/s1_example_data)
 
@@ -72,7 +72,7 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 - Two example charts, to start your website:
 	1. [s2_chart1.json](2/s2_chart1.json): a simple bar chart showing the human development index (HDI) for 21 countries
 	2. [s2_chart2.json](2/s2_chart2.json): 1. an interactive scatter plot, showing Vega-Lite's potential
-- Slides: [2_Building_your_first_website.pdf](2/2_Building_your_first_website.pdf)
+- Slides: [s2_Building_your_first_website.pdf](2/s2_Building_your_first_website.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have your own website, with its own customised text and design. Your website will have at least three stunning charts.
 
@@ -108,7 +108,7 @@ By this stage you have a live site and can update a long list of data series at 
 		- [🗻 s4_chart4.json](4/s4_chart4.json) 
 - Further examples, increasing in complexity: 
 	- [🗻 s4_more_example_charts](4/s4_more_example_charts/)
-- Slides: [4_Advanced_visualisations.pdf](4/4_Advanced_visualisations.pdf)
+- Slides: [s4_Advanced_visualisations.pdf](4/s4_Advanced_visualisations.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have explored a range of interactive and multi-dimension charts, and added at least one of them to your website. This is a change to explore and edit, helping your page to come alive.
 
