@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "ADD A TITLE"
+    },
+    "width": 400,
+    "height": 300,
+    "data": {
+      "url": "https://api.economicsobservatory.com/{ADD COUNTRY ISO CODE - E.G GBR}/{ADD SERIES CODE - e.g. GROW}?vega"
+    },
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal"
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative"
+      }
+    }
+  }
