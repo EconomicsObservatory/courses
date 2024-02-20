@@ -88,6 +88,7 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 		-  [🥾s3_chart1.json](3/s3_chart1.json): A dynamic chart specification showing French unemployment using ECO API data
 		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with the ECO API
 	2. FRED API:
+		- [🥾data_FRED-DGS10.json](3/data_FRED-DGS10.json): Bond-yield data downloaded directly from FRED
 		- [🥾s3_chart3.json](3/s3_chart3.json): A chart specification using data from the FRED API uploaded to GitHub
 		-  [👟s3_chart4.json](3/s3_chart4.json): A template for making charts with cached FRED data 
 - Slides: [3_Accessing_data_programmatically.pdf](3/3_Accessing_data_programmatically.pdf)
