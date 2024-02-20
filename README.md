@@ -6,11 +6,10 @@ An interactive masterclass by the **Economics Observatory**
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/EconomicsObservatory/ecovisualisations/blob/main/LICENSE)
 
 [**Website**](https://www.economicsobservatory.com/)
-| <ins>[**Courses**](https://github.com/EconomicsObservatory/courses)</ins>
-| [**Visualisations**](https://github.com/EconomicsObservatory/ECOvisualisations)
+| [**Data Hub**](https://www.economicsobservatory.com/data-hub)
+| [**Chart Examples**](https://richarddavies.io/charts)
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
-| [**API**](https://github.com/EconomicsObservatory/api)
-| [**Attendance Sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit?usp=sharing)
+| [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
 
 Welcome to our interactive data masterclass. At the **Economics Observatory (ECO)** we believe that the future of effective science communication is a blend of data and text. Dashboards without context are too cluttered and text without explanatory graphics is difficult to grasp.
 
@@ -53,10 +52,12 @@ The day starts with an introduction from the **Economics Observatory Data Team*
 
 **Resources:**
 - We have prepared three example files highlighting the ‘charts as data’ principle, including the underlying data we want to display, delivered into your chart in three ways:
-	1. [chart1_data_inline.json](1/chart1_data_inline.json)
-	2. [chart2_data_linked.json](1/chart2_data_linked.json)
-	3. [chart3_data_from_api.json](1/chart3_data_from_api.json)
+	1. Inline: [s1_chart1.json](1/s1_chart1.json)
+	2. Linked: [s1_chart2.json](1/s1_chart2.json)
+	3. API: [s1_chart3.json](1/s1_chart3.json)
 - Slides: [1_Charts_as_data.pdf](1/1_Charts_as_data.pdf)
+- We have also prepared 5 very simple datasets to try using with Vega-lite.
+	- 👟[example_data](1/example_data)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen all three JSON types, and will have added one of these files to your personal GitHub repository.
 ## Session 2: Building a live web site
@@ -69,8 +70,8 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 	2. [👟 example2.css](2/example2.css): a minimal example containing instructions to help you style the website
 	3. [🗻 example3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
 - Two example charts, to start your website:
-	1. [basic_chart_example.json](2/basic_chart_example.json): a simple bar chart showing the human development index (HDI) for 21 countries
-	2. [advanced_chart_example.json](2/advanced_chart_example.json): 1. an interactive scatter plot, showing Vega-Lite's potential
+	1. [s2_chart1.json](2/s2_chart1.json): a simple bar chart showing the human development index (HDI) for 21 countries
+	2. [s2_chart2.json](2/s2_chart2.json): 1. an interactive scatter plot, showing Vega-Lite's potential
 - Slides: [2_Building_your_first_website.pdf](2/2_Building_your_first_website.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have your own website, with its own customised text and design. Your website will have at least three stunning charts.
@@ -96,12 +97,13 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 By this stage you have a live site and can update a long list of data series at the click of a button. Session 4 adds interactivity and new dimensions to charts. If time permits, we can also begin to explore choropleth maps (if not, we have a video for this). By the end of session 4, the websites will start to come alive, with dropdown menus, hover tools and scrollers adding dynamism to the data.
 
 **Resources**
-- Three advanced chart examples:
+- Four advanced chart examples:
 	- Scatter Plots: 
-		- [🥾 example_advanced1.json](4/example_advanced1.json)
-        - [👟 example_advanced2.json](4/example_advanced2.json)
-	- A basic map:  
-		- [👟 example_advanced3.json](4/example_advanced3.json)
+		- [🥾 s4_chart1.json](4/s4_chart1.json)
+        - [👟 s4_chart2.json](4/s4_chart2.json)
+	-  Maps:  
+		- [👟 s4_chart3.json](4/s4_chart3.json)
+		- [🗻 s4_chart4.json](4/s4_chart4.json) 
 - Further examples, increasing in complexity: 
 	- [🗻 more_example_charts](4/more_example_charts/)
 - Slides: [4_Advanced_visualisations.pdf](4/4_Advanced_visualisations.pdf)
@@ -113,14 +115,10 @@ By this stage you have a live site and can update a long list of data series at 
 Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: `Python` and `JavaScript`, then `HTML` and `CSS`. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
 
 **Resources**
-- Basic Scraping - Extracting data from Wikipedia
-	- [👟 Session_5_Scraping_basic.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping_basic.ipynb) - opens in `Colab`
-	- Example Scraped Data: [g7_summits.csv](5/g7_summits.csv) 
-	- Example Chart Scraped Data: [chart_g7_meeting_hosts.json](5/chart_g7_meeting_hosts.json)
-- Advanced Scraping - HTML scraping
-	- [🗻 Session_5_Scraping_advanced.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping_advanced.ipynb) - opens in `Colab`
-	- Example Scraped Data: [top_words.csv](5/top_words.csv)
-	- Example Chart Scraped Data: [chart_eco_top_words.json](5/chart_eco_top_words.json)
+- An advanced notebook, introducing scraping
+	-  [🗻 Session_5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping.ipynb)
+- An example of scraped data: [top_words.csv](5/top_words.csv)
+- A chart using the scraped data: [s5_chart1.json](s5_chart1.json)
 - Slides: [5_scraping_data.pdf](5/5_scraping_data.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like Wikipedia. You will also have added one last chart to your website, displaying data accessed via a scraper.
