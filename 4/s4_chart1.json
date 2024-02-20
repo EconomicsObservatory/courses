@@ -1,15 +1,15 @@
 { "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "description": "Various US measures state by state",
+"title": {
+  "text": "Gun deaths and income - US states",
+  "subtitle":["Median income (x), and firearm deaths per 100k population (y)",""],
+  "subtitleFontStyle":"italic",
+  "subtitleFontSize":10,
+  "anchor": "start",
+  "color": "black"
+},
 
-  "title": {
-    "text": "Gun deaths and income - US states",
-    "subtitle":["Median income (x), and firearm deaths per 100k population (y)",""],
-    "subtitleFontStyle":"italic",
-    "subtitleFontSize":10,
-    "anchor": "start",
-    "color": "black"
-  },
+  "description": "Various US measures state by state",
 
 "data": {
   "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/usa_socioEconomic.csv",
