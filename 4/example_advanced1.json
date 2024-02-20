@@ -1,46 +1,39 @@
-{ 
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "description": "Various US measures state by state",
 
   "title": {
     "text": "Gun deaths and income - US states",
-    "subtitle":["Median income (x), firearm deaths per 100k population (y), prison rate per 100 pop. (bubble size)",""],
+    "subtitle":["Median income (x), and firearm deaths per 100k population (y)",""],
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
     "color": "black"
   },
 
-  "data": {
-    "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/usa_socioEconomic.csv",
+"data": {
+  "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/usa_socioEconomic.csv",
     "format":{"type":"csv"}},
 
   "mark": {
     "type":"circle",
     "size":150,
     "color":"rgb(0,67,167)",
-    "opacity":0.6},
+    "opacity":0.6
+  },
   
   "height": 300,
   "width": 400,
 
-  "transform": [
-    {"calculate": "datum.PrisonRate * 1000", "as": "PrisonRatePer100k"}
-  ],
-
   "encoding": {
     "x": {
-      "field": "medIncome", 
+      "field": "medIncome",
       "type": "quantitative",
-      "scale": {
-        "domain": [40000, 80000]
-      },
+      "scale": {"domain": [40000, 80000]},
       "axis": {
         "title": "Median Income"
       }
     },
-
     "y": {
       "field": "FirearmDeaths", 
       "type": "quantitative",
@@ -48,31 +41,8 @@
         "title": "Firearm Deaths"
       }
     },
-
-    "color": {
-      "field": "GeographicDivision", 
-      "type": "ordinal",
-      "scale": {
-        "scheme": "set1"
-      },
-      "legend": {
-        "title": null
-      }
-    },
-
-    "size": {
-      "field": "PrisonRate", 
-      "type": "quantitative",
-      "title": "Prison Rate",
-      "scale": {
-        "range": [5, 300]
-      }
-    },
-    "tooltip": [
-      {"field": "State"},
-      {"field": "medIncome", "format": "$,", "title": "Median Income"},
-      {"field": "FirearmDeaths", "format": ",", "title":"Firearm Deaths"},
-      {"field": "ImprisonmentRate", "format": ",", "title":"Prison Rate"}
-    ]
+   "tooltip": [
+      {"field": "State"}
+   ]
   }
 }
