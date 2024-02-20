@@ -9,7 +9,7 @@
   "width": 400,
   "height": 300,
  
-  "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/1/example_data/chart2_GDP_pc_6_countries.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/1/s1_example_data/chart2_GDP_pc_6_countries.csv"},
  
   "mark": "line",
  
