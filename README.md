@@ -57,18 +57,18 @@ The day starts with an introduction from the **Economics Observatory Data Team*
 	3. API: [s1_chart3.json](1/s1_chart3.json)
 - Slides: [1_Charts_as_data.pdf](1/1_Charts_as_data.pdf)
 - We have also prepared 5 very simple datasets to try using with Vega-lite.
-	- 👟[example_data](1/example_data)
+	- 👟[s1_example_data](1/s1_example_data)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen all three JSON types, and will have added one of these files to your personal GitHub repository.
 ## Session 2: Building a live web site
 By now you have a live chart (your JSON file) ready to embed into your website. But first you need to build a site to host it. We will show you the simple tools that allow this. First, we make a live site (`GitHub Pages`), before creating a space for visualisations and adding some text description (`HTML`). This site is briefly beautified and personalised (`CSS`) before we finally embed the charts built in session 1 (`JavaScript`).
 
 **Resources:**
-- A template to use for your website: [example1.html](2/example1.html)
+- A template to use for your website: [s2_example1.html](2/s2_example1.html)
 - Three options for CSS Stylesheets, to customise your website:
-	1. [🥾 example1.css](2/example1.css): a clean and full example with all the work done for you
-	2. [👟 example2.css](2/example2.css): a minimal example containing instructions to help you style the website
-	3. [🗻 example3.css](2/example3.css): a more complex example, placing charts and descriptions side-by-side 
+	1. [🥾 s2_example1.css](2/s2_example1.css): a clean and full example with all the work done for you
+	2. [👟 s2_example2.css](2/s2_example2.css): a minimal example containing instructions to help you style the website
+	3. [🗻 s2_example3.css](2/s2_example3.css): a more complex example, placing charts and descriptions side-by-side 
 - Two example charts, to start your website:
 	1. [s2_chart1.json](2/s2_chart1.json): a simple bar chart showing the human development index (HDI) for 21 countries
 	2. [s2_chart2.json](2/s2_chart2.json): 1. an interactive scatter plot, showing Vega-Lite's potential
@@ -82,16 +82,16 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
-	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
+	- [s3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
 - Two examples of using data from APIs:
 	1. The Economics Observatory API
 		-  [🥾s3_chart1.json](3/s3_chart1.json): A dynamic chart specification showing French unemployment using ECO API data
 		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with the ECO API
 	2. FRED API:
-		- [🥾data_FRED-DGS10.json](3/data_FRED-DGS10.json): Bond-yield data downloaded directly from FRED
+		- [🥾s3_data_FRED-DGS10.json](3/s3_data_FRED-DGS10.json): Bond-yield data downloaded directly from FRED
 		- [🥾s3_chart3.json](3/s3_chart3.json): A chart specification using data from the FRED API uploaded to GitHub
 		-  [👟s3_chart4.json](3/s3_chart4.json): A template for making charts with cached FRED data 
-- Slides: [3_Accessing_data_programmatically.pdf](3/3_Accessing_data_programmatically.pdf)
+- Slides: [s3_Accessing_data_programmatically.pdf](3/s3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).
 ## Session 4: Advanced visualisations – beyond two dimensions
@@ -107,7 +107,7 @@ By this stage you have a live site and can update a long list of data series at 
 		- [👟 s4_chart3.json](4/s4_chart3.json)
 		- [🗻 s4_chart4.json](4/s4_chart4.json) 
 - Further examples, increasing in complexity: 
-	- [🗻 more_example_charts](4/more_example_charts/)
+	- [🗻 s4_more_example_charts](4/s4_more_example_charts/)
 - Slides: [4_Advanced_visualisations.pdf](4/4_Advanced_visualisations.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have explored a range of interactive and multi-dimension charts, and added at least one of them to your website. This is a change to explore and edit, helping your page to come alive.
@@ -119,9 +119,9 @@ Sometimes there is no API is available and there is no obvious source of data in
 **Resources**
 - An advanced notebook, introducing scraping
 	-  [🗻 Session_5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping.ipynb)
-- An example of scraped data: [top_words.csv](5/top_words.csv)
-- A chart using the scraped data: [s5_chart1.json](s5_chart1.json)
-- Slides: [5_scraping_data.pdf](5/5_scraping_data.pdf)
+- An example of scraped data: [s5_eco_words.csv](5/s5_eco_words.csv)
+- A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
+- Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like Wikipedia. You will also have added one last chart to your website, displaying data accessed via a scraper.
 ## 🚀 Takeaways

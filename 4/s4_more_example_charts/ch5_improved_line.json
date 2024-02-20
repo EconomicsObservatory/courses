@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/simple/dwellings_per_capita_timeseries.csv"
+  },
+  "mark": {"type": "line", "interpolate":"basis"},
+  "encoding": {
+    "x": {"field": "year", 
+    "axis": {
+      "gridOpacity":0
+    },
+    "type": "temporal", "title": null},
+    "y": {
+      "scale": {
+        "zero":false
+      },
+      "field": "value", "type": "quantitative", "title": null},
+    "color": {"field": "country"}
+  },
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "Housing: International Comparison",
+    "subtitle": ["Dwellings Per Capita, Source: PublicHouse"]
+  },
+  "config": {"view": {"strokeOpacity":0}}
+}

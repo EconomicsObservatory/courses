@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 550,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/vega/datalib/master/test/data/world-110m.json",
+    "format": {"type": "topojson", "feature": "countries"}
+  },
+  "transform": [
+    {
+      "lookup": "id",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/owid_co2_2022.csv"
+        },
+        "key": "id",
+        "fields": ["value"]
+      }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "mark": {"type": "geoshape", "stroke": "gray"},
+  "encoding": {
+    "color": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "CO2 Emissions (tons)"
+    }
+  },
+  "title": {
+    "text": "Annual CO2 Emissions",
+    "subtitle": ["2022, includes land-use change", "Source: OWID"]
+  }
+}

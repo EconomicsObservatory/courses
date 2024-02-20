@@ -1,0 +1,94 @@
+/* This is the level 3 CSS file. It demonstrates some more complex CSS options. */
+/* Feel free to use any for your page. Try to experiment with the values, or copy them into a new file and use that instead. */
+/* If this is too much, you can always go back to level_1.css. */
+
+/* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
+
+
+/* We're importing a font - Raleway - from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+/* Do you want to use a different font? Go to https://fonts.google.com/ and pick one! */
+
+
+
+body { /* We can style any HTML element by using its name - here we're styling the body */
+    /* We want text that uses a clean sans-serif font, is usually 16px big and close to black */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    /* we want a white page, that's centered and not too wide */
+    background-color: #fff;
+    margin:0 auto;
+    max-width: min(80vw, 1200px);
+    padding-top: 60px;
+  }
+  
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    /* Keep the headings on their own line */
+    clear: both;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-family: "Raleway", sans-serif; 
+    font-weight: 500;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  h2 {
+    font-size: 1.75em;
+  }
+  
+  /* Paragraph */
+  p {
+    margin-bottom: 1em;
+    font-weight: 300;
+  }
+
+section {
+    /* Add a thick black top border to each section */
+    border-top: 4px solid #000;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adjust the gap between the text and the chart as needed */
+}
+
+section .chart-description {
+    flex: 1; /* Allows the paragraph to take up the remaining space */
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 30px; /* Adjust this value to control the distance from the top */
+    max-width: min(500px, 30vw);
+}
+
+section figure {
+    flex: 1; /* Allows the figure to take up equal space */
+    height: 600px; /* Adjust the height as needed for your chart */
+    /* Additional styles for your figure */
+}
+
+  
+  /* Links */
+  a {
+    color: #065f46;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+    
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

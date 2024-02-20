@@ -1,0 +1,69 @@
+/* This is the second level of the CSS file. */
+/* It encourages you to experiment with the font, background color, and section styling. */
+/* Feel free to uncomment the lines and replace the values with your own choices. */
+/* If this is too much, you can always go back to level_1.css and copy the values from there. */
+
+/* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
+
+
+body {
+    /* try choosing a font here */
+    /* uncomment the line below and replace the font name with your choice */
+    /* font-family: */
+    font-size: 16px;
+    /* color: #333; */
+    line-height: 1.6;
+    /* we want a page, that's centered and not too wide */
+    /* try choosing a background color here - either use a name, or try rgb(red,green,blue) */
+    /* background-color: * */
+    margin:0 auto;
+    max-width: 800px;
+    padding-top: 60px;
+  }
+  
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    /* try choosing a color here - either use a name, or try rgb(red,green,blue) */
+    /* color:  */
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1.75em;
+  }
+  
+  /* Paragraph */
+  p {
+    margin-bottom: 1em;
+    font-weight: 300;
+  }
+
+  section {
+    margin-bottom: 2.5em;  /* We want a little more space between sections */
+    /* do you want to give the sections a background or border? */
+
+  }
+  
+  /* Links */
+  a {
+    color: #065f46;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+    
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
