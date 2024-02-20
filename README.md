@@ -118,7 +118,7 @@ Sometimes there is no API is available and there is no obvious source of data in
 
 **Resources**
 - An advanced notebook, introducing scraping
-	-  [🗻 Session_5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/Session_5_Scraping.ipynb)
+	-  [🗻 Session_5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping.ipynb)
 - An example of scraped data: [s5_eco_words.csv](5/s5_eco_words.csv)
 - A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
 - Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
