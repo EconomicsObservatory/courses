@@ -83,12 +83,13 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
 	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
-- Downloaded data files (this is what Python will help us find):
-	- [data_FRED-DGS10.json](3/data_FRED-DGS10.json)
-	- [data_FRED-PCEPI.json](3/data_FRED-PCEPI.json)
-- Chart specification files (here we display the data, in JSON form once again):
-	- [chart_FRED-DGS10.json](3/chart_FRED-DGS10.json)
-	- [chart_FRED-PCEPI.json](3/chart_FRED-PCEPI.json)
+- Two example of using data from APIs:
+	1. The Economics Observatory API
+		-  [🥾s3_chart1.json](3/s3_chart1.json): A dynamic chart specification showing French unemployment using ECO API data
+		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with the ECO API
+	2. FRED API:
+		- [🥾s3_chart3.json](3/s3_chart3.json): A chart specification using data from the FRED API uploaded to GitHub
+		-  [👟s3_chart4.json](3/s3_chart4.json): A template for making charts with cached FRED data 
 - Slides: [3_Accessing_data_programmatically.pdf](3/3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).
