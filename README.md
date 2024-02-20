@@ -83,7 +83,7 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
 	- [3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
-- Two example of using data from APIs:
+- Two examples of using data from APIs:
 	1. The Economics Observatory API
 		-  [🥾s3_chart1.json](3/s3_chart1.json): A dynamic chart specification showing French unemployment using ECO API data
 		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with the ECO API
