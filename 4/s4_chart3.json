@@ -17,7 +17,7 @@
   "description": "2021 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
 
   "data": {
-    "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/map_world.geojson",
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
     "format": {"property": "features"}
   },
 
@@ -31,7 +31,7 @@
         "key": "ISO3",
         "fields": ["GDP per capita (PPP)"],
         "data": {
-          "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/global_gdp_perCapita_2021.csv"
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/global_gdp_perCapita_2021.csv"
         }
       }
     }
