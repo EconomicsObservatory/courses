@@ -12,7 +12,7 @@
   "description": "Various US measures state by state",
 
 "data": {
-  "url": "https://raw.githubusercontent.com/jhellingsdata/courses/main/datasets/advanced/usa_socioEconomic.csv",
+  "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/usa_socioEconomic.csv",
     "format":{"type":"csv"}},
 
   "mark": {
