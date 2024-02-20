@@ -8,7 +8,7 @@
     "anchor": "start"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/eco_words.csv"
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/s5_eco_words.csv"
   },
   "mark": {"type": "bar", "fill":"rgb(24,42,56)"},
   "encoding": {
