@@ -11,13 +11,14 @@ An interactive masterclass by the **Economics Observatory**
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
 | [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
 
-Welcome to our interactive data masterclass. At the **Economics Observatory (ECO)** we believe that the future of effective science communication is a blend of data and text. Dashboards without context are too cluttered and text without explanatory graphics is difficult to grasp.
+Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, but also transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer as data usage in the social sciences modernises.
 
-In our day-to-day work at ECO, we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical to what we do. This masterclass is designed to capture and share that workflow.
+<br>
+<br>
 
 ## 🏔️ Scope
 
-Our data visualisation masterclass will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation for communicating information to a wide and diverse audience. It will also introduce some of our guiding principles for displaying data, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
+The course will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation for communicating information to a wide and diverse audience. It will also introduce some of our guiding principles for displaying data, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
 
 Throughout the course, we will offer and support 3 routes up the data mountain:
 
@@ -25,12 +26,18 @@ Throughout the course, we will offer and support 3 routes up the data mountain:
   - **👟 Trail runner** - slightly more stretching, for those who find the hike quick to complete and would like to build on their visualisation skills.
   - **🗻 Mountaineer** - harder but rewarding, for participants who would like a taste of cutting-edge tools and techniques.
 
-You will gain the skills and tools needed to create excellent charts. The course will also signpost additional resources to develop the ideas further, allowing you to gain confidence in your own abilities and even teach others. The latter stages of the course will delve deeper into the theory, exploring more advanced methods for data access and visualisation.
+Throughout the day we signpost additional resources to develop the ideas further, allowing you to gain confidence in your own abilities and even teach others. 
+
+<br>
+<br>
 
 ## 🛠️ Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
 - Access to a personal `GitHub` account, accessible via Google Chrome.
 - `Visual Studio Code` downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
+
+<br>
+<br>
 
 ## 🕒 Schedule
 | Time          | Section | Details                                             |
@@ -44,6 +51,9 @@ No prior coding experience is required. However, participants’ laptops will ne
 | 14.15 - 15.15 | 4       | Advanced visualisations – beyond two dimensions     |
 | 15:15 - 15:30 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
 | 15.30 - 16.30 | 5       | Scraping – fetching data with Python                |
+
+<br>
+<br>
 
 ## Session 1: Charts as data
 
@@ -59,6 +69,10 @@ The day starts with an introduction from the **Economics Observatory Data Team*
 	- 👟[s1_example_data](1/s1_example_data)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen all three JSON types, and will have added one of these files to your personal GitHub repository.
+
+<br>
+<br>
+
 ## Session 2: Building a live web site
 By now you have a live chart (your JSON file) ready to embed into your website. But first you need to build a site to host it. We will show you the simple tools that allow this. First, we make a live site (`GitHub Pages`), before creating a space for visualisations and adding some text description (`HTML`). This site is briefly beautified and personalised (`CSS`) before we finally embed the charts built in session 1 (`JavaScript`).
 
@@ -74,6 +88,9 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 - Slides: [s2_Building_your_first_website.pdf](2/s2_Building_your_first_website.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have your own website, with its own customised text and design. Your website will have at least three stunning charts.
+
+<br>
+<br>
 
 ## Session 3: Fetching data from APIs
 
@@ -94,6 +111,10 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 - Slides: [s3_Accessing_data_programmatically.pdf](3/s3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).
+
+<br>
+<br>
+
 ## Session 4: Advanced visualisations – beyond two dimensions
 
 By this stage you have a live site and can update a long list of data series at the click of a button. Session 4 adds interactivity and new dimensions to charts. If time permits, we can also begin to explore choropleth maps (if not, we have a video for this). By the end of session 4, the websites will start to come alive, with dropdown menus, hover tools and scrollers adding dynamism to the data.
@@ -112,6 +133,9 @@ By this stage you have a live site and can update a long list of data series at 
 
 ✅ **Checkpoint:** By the end of this session, you will have explored a range of interactive and multi-dimension charts, and added at least one of them to your website. This is a change to explore and edit, helping your page to come alive.
 
+<br>
+<br>
+
 ## Session 5:	Scrapers – fetching data programmatically
 
 Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: `Python` and `JavaScript`, then `HTML` and `CSS`. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
@@ -126,6 +150,10 @@ Sometimes there is no API is available and there is no obvious source of data in
 	-  [🗻 s5_Scraping_Bonus.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=5%2Fs5_Scraping_Bonus.ipynb)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like the Economics Observatory. You will also have added one last chart to your website, displaying data accessed via a scraper.
+
+<br>
+<br>
+
 ## 🚀 Takeaways
 
 #### 1.  Personal webpage
@@ -140,6 +168,8 @@ Sometimes there is no API is available and there is no obvious source of data in
 - Please think about what you might include on your webpage and what data you might use. You can use any data you like, but we will also provide example datasets for you to use.
 - If you would like to create a specific chart, we can help you build it – but consider the range of possibilities in the [Vega-Lite Example Gallery](https://vega.github.io/vega-lite/examples/).
 
+<br>
+<br>
 
 ### 🗂️ Resources
 
