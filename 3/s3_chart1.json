@@ -1,13 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "French Unemployment",
-      "subtitle": "Rate, % | Source: Insee through ECO API"
+      "text": "Canadian Unemployment",
+      "subtitle": "Rate, % | Source: STATCAN through ECO API"
     },
     "width": 400,
     "height": 300,
     "data": {
-      "url": "https://api.economicsobservatory.com/fra/unem?vega"
+      "url": "https://api.economicsobservatory.com/can/unem?vega"
     },
     "mark": "line",
     "encoding": {
