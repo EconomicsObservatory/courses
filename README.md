@@ -122,8 +122,10 @@ Sometimes there is no API is available and there is no obvious source of data in
 - An example of scraped data: [s5_eco_words.csv](5/s5_eco_words.csv)
 - A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
 - Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
+- A bonus notebook, introducing scraping HTML tables with Pandas
+	-  [🗻 s5_Scraping_Bonus.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping_Bonus.ipynb)
 
-✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like Wikipedia. You will also have added one last chart to your website, displaying data accessed via a scraper.
+✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like the Economics Observatory. You will also have added one last chart to your website, displaying data accessed via a scraper.
 ## 🚀 Takeaways
 
 #### 1.  Personal webpage
