@@ -23,7 +23,7 @@ Throughout the course, we will offer and support 3 routes up the data mountain:
 
   - **🥾 Hiker** - the gentlest route, for those with no coding experience who simply want to build some nice-looking charts in a modern way.
   - **👟 Trail runner** - slightly more stretching, for those who find the hike quick to complete and would like to build on their visualisation skills.
-  - **🗻 Mountaineer** - harder but rewarding. for participants who would like a taste of cutting-edge tools and techniques.
+  - **🗻 Mountaineer** - harder but rewarding, for participants who would like a taste of cutting-edge tools and techniques.
 
 You will gain the skills and tools needed to create excellent charts. The course will also signpost additional resources to develop the ideas further, allowing you to gain confidence in your own abilities and even teach others. The latter stages of the course will delve deeper into the theory, exploring more advanced methods for data access and visualisation.
 
