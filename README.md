@@ -15,7 +15,9 @@ Welcome to our interactive data masterclass. At the **Economics Observatory (EC
 
 In our day-to-day work at ECO, we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical to what we do. This masterclass is designed to capture and share that workflow.
 
-
+<br>
+<br>
+<br>
 ## 🏔️ Scope
 
 Our data visualisation masterclass will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation for communicating information to a wide and diverse audience. It will also introduce some of our guiding principles for displaying data, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
