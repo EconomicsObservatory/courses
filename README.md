@@ -11,7 +11,7 @@ An interactive masterclass by the **Economics Observatory**
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
 | [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
 
-Welcome to our masterclass. At the **Economics Observatory (ECO)** we believe that effective communication blends data and text. In our day-to-day work we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer in the modern world of data.
+Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, but also transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer as data usage in the social sciences modernises.
 
 <br>
 <br>
