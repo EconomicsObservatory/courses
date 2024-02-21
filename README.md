@@ -82,15 +82,15 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
-	- [s3_workbook.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
+	- [🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you will have to select `Save a copy in drive` in order to be able to make edits.
+	- [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
 - Two examples of using data from APIs:
 	1. FRED API:
 		- [🥾s3_data_FRED-DGS10.json](3/s3_data_FRED-DGS10.json): Bond-yield data downloaded directly from FRED
 		- [🥾s3_chart1.json](3/s3_chart1.json): A chart specification using data from the FRED API uploaded to GitHub
-		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with cached FRED data 
+		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with cached FRED data.
 	2. The Economics Observatory API
-		-  [🥾s3_chart1.json](3/s3_chart1.json): A dynamic chart specification showing French unemployment using ECO API data
-		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with the ECO API
+		-  [🥾s3_chart3.json](3/s3_chart3.json): A dynamic chart specification showing Australian unemployment built using [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb).
 - Slides: [s3_Accessing_data_programmatically.pdf](3/s3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).

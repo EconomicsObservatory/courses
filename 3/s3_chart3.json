@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://api.economicsobservatory.com/aus/unem"
+    },
+    "title": {
+        "text": "Unemployment",
+        "subtitle": "aus"
+    },
+    "width": 300,
+    "height": 300,
+    "mark": {
+        "type": "line",
+        "color": "red"
+    },
+    "encoding": {
+        "x": {
+            "field": "date",
+            "type": "temporal"
+        },
+        "y": {
+            "field": "value",
+            "type": "quantitative"
+        }
+    }
+}
