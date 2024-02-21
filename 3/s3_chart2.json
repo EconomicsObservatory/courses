@@ -1,22 +1,15 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "ADD A TITLE"
-    },
-    "width": 400,
-    "height": 300,
-    "data": {
-      "url": "https://api.economicsobservatory.com/{ADD COUNTRY ISO CODE - E.G GBR}/{ADD SERIES CODE - e.g. GROW}?vega"
-    },
-    "mark": "line",
-    "encoding": {
-      "x": {
-        "field": "date",
-        "type": "temporal"
-      },
-      "y": {
-        "field": "value",
-        "type": "quantitative"
-      }
-    }
-  }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "ADD YOUR OWN TITLE"
+  },
+  "description": "A chart showing 10-Year U.S. Treasury Yields",
+  "data": {"url": "ADD YOUR OWN raw.githubusercontent... LINK WITH AN UPLOADED API OUTPUT", "format":{"type": "json", "property": "observations"}},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title":""},
+    "y": {"field": "value", "type": "quantitative", "title":"Yield"}
+  },
+  "width": 400,
+  "height": 300
+}
