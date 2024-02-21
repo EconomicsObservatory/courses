@@ -15,6 +15,7 @@ Welcome to our interactive data masterclass. At the **Economics Observatory (EC
 
 In our day-to-day work at ECO, we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical to what we do. This masterclass is designed to capture and share that workflow.
 
+
 ## 🏔️ Scope
 
 Our data visualisation masterclass will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation for communicating information to a wide and diverse audience. It will also introduce some of our guiding principles for displaying data, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
@@ -27,10 +28,12 @@ Throughout the course, we will offer and support 3 routes up the data mountain:
 
 You will gain the skills and tools needed to create excellent charts. The course will also signpost additional resources to develop the ideas further, allowing you to gain confidence in your own abilities and even teach others. The latter stages of the course will delve deeper into the theory, exploring more advanced methods for data access and visualisation.
 
+
 ## 🛠️ Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
 - Access to a personal `GitHub` account, accessible via Google Chrome.
 - `Visual Studio Code` downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
+
 
 ## 🕒 Schedule
 | Time          | Section | Details                                             |
@@ -44,6 +47,7 @@ No prior coding experience is required. However, participants’ laptops will ne
 | 14.15 - 15.15 | 4       | Advanced visualisations – beyond two dimensions     |
 | 15:15 - 15:30 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
 | 15.30 - 16.30 | 5       | Scraping – fetching data with Python                |
+
 
 ## Session 1: Charts as data
 
