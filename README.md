@@ -30,7 +30,6 @@ You will gain the skills and tools needed to create excellent charts. The course
 ## 🛠️ Pre-requisites
 No prior coding experience is required. However, participants’ laptops will need to be set up to allow:
 - Access to a personal `GitHub` account, accessible via Google Chrome.
-- Access to `Google Colaboratory`, accessible via a working Google account.
 - `Visual Studio Code` downloaded to desktop, or accessible online as a back-up option (see set-up video and slides).
 
 ## 🕒 Schedule
@@ -81,7 +80,7 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 Here we introduce APIs more formally, running through their strengths and pitfalls as sources of data. We also meet some workhorses of programming—if statements and loops—allowing us to batch download data. By the end of this third session, you will have embedded another chart into their site, this time powered by an API. When new data are released, their chart will update – fully automatically.
 
 **Resources**
-- This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
+- This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Binder` for this.
 	-  [🥾s3_workbook_Loops_APIs.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_workbook_Loops_APIs.ipynb) is an example that you can start with. This link takes you to the `Binder` user interface, where you can run Python code from your browser without logging in.
 	-  [👟s3_workbook_ECO_API.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
 	- [👟s3_extra_python_examples.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_extra_python_examples.ipynb) is a bonus notebook with some additional context for coding with Python.
@@ -119,12 +118,12 @@ Sometimes there is no API is available and there is no obvious source of data in
 
 **Resources**
 - An advanced notebook, introducing scraping
-	-  [🗻 s5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping.ipynb)
+	-  [🗻 s5_Scraping.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=5%2Fs5_Scraping.ipynb)
 - An example of scraped data: [s5_eco_words.csv](5/s5_eco_words.csv)
 - A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
 - Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
 - A bonus notebook, introducing scraping HTML tables with Pandas
-	-  [🗻 s5_Scraping_Bonus.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping_Bonus.ipynb)
+	-  [🗻 s5_Scraping_Bonus.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=5%2Fs5_Scraping_Bonus.ipynb)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like the Economics Observatory. You will also have added one last chart to your website, displaying data accessed via a scraper.
 ## 🚀 Takeaways
