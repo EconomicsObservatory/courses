@@ -11,13 +11,11 @@ An interactive masterclass by the **Economics Observatory**
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
 | [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
 
-Welcome to our interactive data masterclass. At the **Economics Observatory (ECO)** we believe that the future of effective science communication is a blend of data and text. Dashboards without context are too cluttered and text without explanatory graphics is difficult to grasp.
-
-In our day-to-day work at ECO, we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical to what we do. This masterclass is designed to capture and share that workflow.
+Welcome to our masterclass. At the **Economics Observatory (ECO)** we believe that effective communication blends data and text. In our day-to-day work we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, while also ensuring that the underlying data are transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer in the modern world of data.
 
 <br>
 <br>
-<br>
+
 ## 🏔️ Scope
 
 Our data visualisation masterclass will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation for communicating information to a wide and diverse audience. It will also introduce some of our guiding principles for displaying data, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
