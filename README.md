@@ -1,5 +1,3 @@
-<div align="left"><img src="https://raw.githubusercontent.com/EconomicsObservatory/ECOvisualisations/main/guidelines/logos/eco-bg-dark.png" width="800"/></div>
-
 # ✨ The language of (economic) data is visualisation ✨ 
 An interactive masterclass by the **Economics Observatory**
 
@@ -42,14 +40,14 @@ No prior coding experience is required. However, participants’ laptops will ne
 ## 🕒 Schedule
 | Time          | Section | Details                                             |
 | ------------- | ------- | --------------------------------------------------- |
-| 09.00 - 09.30 |         | Welcome coffee. Checking computer set ups.          |
+| 09.00 - 09.30 |         | Warm up. Checking computer set ups. Your first site |
 | 09.30 - 10.30 | 1       | Charts as data – introducing Vega-Lite              |
-| 10.30 - 11.00 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
+| 10.30 - 11.00 | _Break_ |                                                     |
 | 11:00 - 12.30 | 2       | My first website – GitHub, HMTL, CSS and JavaScript |
-| 12.30 - 13.15 | _Lunch_ | _Lunch (team available to fix bugs)_                |
+| 12.30 - 13.15 | _Lunch_ |                                                     |
 | 13.15 - 14.15 | 3       | Programming – APIs, if statements, and loops.       |
 | 14.15 - 15.15 | 4       | Advanced visualisations – beyond two dimensions     |
-| 15:15 - 15:30 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
+| 15:15 - 15:30 | _Break_ |                                                     |
 | 15.30 - 16.30 | 5       | Scraping – fetching data with Python                |
 
 <br>
