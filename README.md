@@ -1,4 +1,4 @@
-# ✨ The language of (economic) data is visualisation ✨ 
+# ✨ Modern data visualisation ✨ 
 An interactive masterclass by the **Economics Observatory**
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/EconomicsObservatory/ecovisualisations/blob/main/LICENSE)
