@@ -1,6 +1,4 @@
-<div align="left"><img src="https://raw.githubusercontent.com/EconomicsObservatory/ECOvisualisations/main/guidelines/logos/eco-bg-dark.png" width="800"/></div>
-
-# ✨ The language of (economic) data is visualisation ✨ 
+# ✨ Modern data visualisation ✨ 
 An interactive masterclass by the **Economics Observatory**
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/EconomicsObservatory/ecovisualisations/blob/main/LICENSE)
@@ -10,6 +8,7 @@ An interactive masterclass by the **Economics Observatory**
 | [**Chart Examples**](https://richarddavies.io/charts)
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
 | [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
+| [**Feedback form**](https://forms.office.com/e/2V1QTyrDK2)
 
 Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, but also transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer as data usage in the social sciences modernises.
 
@@ -42,14 +41,14 @@ No prior coding experience is required. However, participants’ laptops will ne
 ## 🕒 Schedule
 | Time          | Section | Details                                             |
 | ------------- | ------- | --------------------------------------------------- |
-| 09.00 - 09.30 |         | Welcome coffee. Checking computer set ups.          |
+| 09.00 - 09.30 |         | Warm up. Checking computer set ups. Your first site |
 | 09.30 - 10.30 | 1       | Charts as data – introducing Vega-Lite              |
-| 10.30 - 11.00 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
+| 10.30 - 11.00 | _Break_ |                                                     |
 | 11:00 - 12.30 | 2       | My first website – GitHub, HMTL, CSS and JavaScript |
-| 12.30 - 13.15 | _Lunch_ | _Lunch (team available to fix bugs)_                |
+| 12.30 - 13.15 | _Lunch_ |                                                     |
 | 13.15 - 14.15 | 3       | Programming – APIs, if statements, and loops.       |
 | 14.15 - 15.15 | 4       | Advanced visualisations – beyond two dimensions     |
-| 15:15 - 15:30 | _Break_ | _Coffee/tea (team available to fix bugs)_           |
+| 15:15 - 15:30 | _Break_ |                                                     |
 | 15.30 - 16.30 | 5       | Scraping – fetching data with Python                |
 
 <br>
