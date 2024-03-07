@@ -97,16 +97,17 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Binder` for this.
-	-  [🥾s3_workbook_Loops_APIs.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_workbook_Loops_APIs.ipynb) is an example that you can start with. This link takes you to the `Binder` user interface, where you can run Python code from your browser without logging in.
-	-  [👟s3_workbook_ECO_API.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
-	- [👟s3_extra_python_examples.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_extra_python_examples.ipynb) is a bonus notebook with some additional context for coding with Python.
+	-  [🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook_Loops_APIs.ipynb) 
+	is an example that you can start with. This link takes you to the `Binder` user interface, where you can run Python code from your browser without logging in.
+	-  [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
+	- [👟s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_extra_python_examples.ipynb) is a bonus notebook with some additional context for coding with Python.
 - Two examples of using data from APIs:
 	1. FRED API:
 		- [🥾s3_data_FRED-DGS10.json](3/s3_data_FRED-DGS10.json): Bond-yield data downloaded directly from FRED
 		- [🥾s3_chart1.json](3/s3_chart1.json): A chart specification using data from the FRED API uploaded to GitHub
 		-  [👟s3_chart2.json](3/s3_chart2.json): A template for making charts with cached FRED data.
 	2. The Economics Observatory API
-		-  [🥾s3_chart3.json](3/s3_chart3.json): A dynamic chart specification showing Australian unemployment built using the [👟s3_workbook_ECO_API.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=3%2Fs3_workbook_ECO_API.ipynb) notebook.
+		-  [🥾s3_chart3.json](3/s3_chart3.json): A dynamic chart specification showing Australian unemployment built using the [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/3_workbook_ECO_API.ipynb) notebook.
 - Slides: [s3_Accessing_data_programmatically.pdf](3/s3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).
@@ -141,12 +142,12 @@ Sometimes there is no API is available and there is no obvious source of data in
 
 **Resources**
 - An advanced notebook, introducing scraping
-	-  [🗻 s5_Scraping.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=5%2Fs5_Scraping.ipynb)
+	-  [🗻 s5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/5_Scraping.ipynb)
 - An example of scraped data: [s5_eco_words.csv](5/s5_eco_words.csv)
 - A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
 - Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
 - A bonus notebook, introducing scraping HTML tables with Pandas
-	-  [🗻 s5_Scraping_Bonus.ipynb](https://mybinder.org/v2/gh/EconomicsObservatory/courses/HEAD?labpath=5%2Fs5_Scraping_Bonus.ipynb)
+	-  [🗻 s5_Scraping_Bonus.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/5_Scraping_Bonus.ipynb)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like the Economics Observatory. You will also have added one last chart to your website, displaying data accessed via a scraper.
 
