@@ -98,7 +98,7 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
 	-  [🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) 
-	is an example that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser without logging in.
+	is an example that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser.
 	-  [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
 	- [👟s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_extra_python_examples.ipynb) is a bonus notebook with some additional context for coding with Python.
 - Two examples of using data from APIs:
@@ -147,7 +147,7 @@ Sometimes there is no API is available and there is no obvious source of data in
 - A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
 - Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
 - A bonus notebook, introducing scraping HTML tables with Pandas
-	-  [🗻 s5_Scraping_Bonus.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/5_Scraping_Bonus.ipynb)
+	-  [🗻 s5_Scraping_Bonus.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping_Bonus.ipynb)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like the Economics Observatory. You will also have added one last chart to your website, displaying data accessed via a scraper.
 
