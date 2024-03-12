@@ -127,6 +127,7 @@ By this stage you have a live site and can update a long list of data series at 
 	-  Maps:  
 		- [👟 s4_chart3.json](4/s4_chart3.json)
 		- [🗻 s4_chart4.json](4/s4_chart4.json) 
+		-  [👟 s4_chart5.json](4/s4_chart5.json) 
 - Further examples, increasing in complexity: 
 	- [🗻 s4_more_example_charts](4/s4_more_example_charts/)
 - Slides: [s4_Advanced_visualisations.pdf](4/s4_Advanced_visualisations.pdf)
