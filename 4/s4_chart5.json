@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Income: UK Regions",
+    "anchor": "start",
+    "subtitleFontWeight": "lighter",
+    "subtitle": ["Gross Domestic Househould Income Per Capita", "Data: ONS", ""]
+  },
+  "width": 300,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/nuts1.json",
+    "format": {"type": "json", "property": "features"}
+  },
+  "transform": [
+    {"calculate": "datum.properties.NAME_LATN", "as": "name"},
+    {
+      "lookup": "name",
+      "from": {
+        "data": {
+          "values": [
+            {"name": "SOUTH WEST (ENGLAND)", "value": 21221},
+            {"name": "WALES", "value": 18038},
+            {"name": "NORTHERN IRELAND", "value": 17636},
+            {"name": "NORTH EAST (ENGLAND)", "value": 17663},
+            {"name": "NORTH WEST (ENGLAND)", "value": 18864},
+            {"name": "YORKSHIRE AND THE HUMBER", "value": 18363},
+            {"name": "EAST MIDLANDS (ENGLAND)", "value": 18956},
+            {"name": "WEST MIDLANDS (ENGLAND)", "value": 18566},
+            {"name": "EAST OF ENGLAND", "value": 22337},
+            {"name": "LONDON", "value": 31094},
+            {"name": "SOUTH EAST (ENGLAND)", "value": 24623},
+            {"name": "SCOTLAND", "value": 19630}
+          ]
+        },
+        "key": "name",
+        "fields": ["value"]
+      }
+    }
+  ],
+  "encoding": {
+    "color": {
+      "field": "value",
+      "type": "quantitative",
+      "legend": {
+        "title": null,
+        "labelFontWeight": "lighter",
+        "orient": "none",
+        "legendX": 0,
+        "legendY": -10,
+        "direction": "horizontal",
+        "gradientLength": 200
+      }
+    }
+  },
+  "projection": {"type": "naturalEarth1"},
+  "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.3}
+}
