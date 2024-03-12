@@ -96,9 +96,9 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 Here we introduce APIs more formally, running through their strengths and pitfalls as sources of data. We also meet some workhorses of programming—if statements and loops—allowing us to batch download data. By the end of this third session, you will have embedded another chart into their site, this time powered by an API. When new data are released, their chart will update – fully automatically.
 
 **Resources**
-- This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Binder` for this.
+- This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
 	-  [🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) 
-	is an example that you can start with. This link takes you to the `Binder` user interface, where you can run Python code from your browser without logging in.
+	is an example that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser without logging in.
 	-  [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
 	- [👟s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_extra_python_examples.ipynb) is a bonus notebook with some additional context for coding with Python.
 - Two examples of using data from APIs:
