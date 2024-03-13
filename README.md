@@ -10,7 +10,7 @@ An interactive masterclass by the **Economics Observatory**
 | [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
 | [**Feedback form**](https://forms.office.com/e/2V1QTyrDK2)
 
-Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, but also transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer as data usage in the social sciences modernises.
+Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, but also transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer as data usage in the social sciences modernises.
 
 <br>
 <br>
@@ -97,9 +97,8 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
-	-  [🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) 
-	is an example that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser.
-	-  [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) is an advanced notebook showing the construction of a dynamic charts using the Economics Observatory API.
+	-  [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) is a notebook showing the construction of a dynamic charts using the Economics Observatory API.
+	-  [🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) is an example that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser.
 	- [👟s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_extra_python_examples.ipynb) is a bonus notebook with some additional context for coding with Python.
 - Two examples of using data from APIs:
 	1. FRED API:
