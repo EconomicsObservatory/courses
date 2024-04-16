@@ -1,17 +1,17 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "https://api.economicsobservatory.com/aus/unem"
+        "url": "https://api.economicsobservatory.com/phl/grow?vega"
     },
     "title": {
-        "text": "Unemployment",
-        "subtitle": "aus"
+        "text": "Philippines",
+        "subtitle": "Growth, % | Source: PSA through ECO-API"
     },
     "width": 300,
     "height": 300,
     "mark": {
         "type": "line",
-        "color": "red"
+        "color": "navy"
     },
     "encoding": {
         "x": {
