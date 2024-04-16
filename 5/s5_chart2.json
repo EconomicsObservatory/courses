@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "rgb(15,33,44)",
+  "title": {
+    "anchor": "start",
+    "text": "Indian Trade",
+    "color": "whitesmoke",
+    "subtitleColor": "whitesmoke",
+    "subtitle": ["Exports and Imports, % of GDP", "Source: ODI via ECO API", ""]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/s5_indian_trade_data.csv"
+  },
+  "mark": "line",
+  "width": 600,
+  "height": 300,
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false, "labelColor": "whitesmoke"}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"format": "%", "labelColor": "whitesmoke", "gridOpacity": 0.5}
+    },
+    "color": {
+      "field": "series",
+      "legend": {"title": null, "orient": "top", "labelColor": "whitesmoke"},
+      "scale": {"scheme": "dark2"}
+    }
+  },
+  "config": {"view": {"strokeOpacity": 0}}
+}
