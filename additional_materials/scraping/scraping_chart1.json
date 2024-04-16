@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":{
+    "text": "Economics Observatory: Frequent Terms",
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitle": ["Most common terms on economicsobservatory.com", "13th February, 2024", ""],
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/s5_eco_words.csv"
+  },
+  "mark": {"type": "bar", "fill":"rgb(24,42,56)"},
+  "encoding": {
+    "x": {"field": "count", "type": "quantitative", "axis": {"labelAngle": 0}, "title":null},
+    "y": {"field": "word", "type": "nominal", "sort":"-x", "title":null}
+  },
+  "width": 300,
+  "height": 300
+}
