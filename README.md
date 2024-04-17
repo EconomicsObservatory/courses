@@ -49,7 +49,7 @@ No prior coding experience is required. However, participants’ laptops will ne
 | 13.15 - 14.15 | 3       | Programming – APIs, if statements, and loops.       |
 | 14.15 - 15.15 | 4       | Advanced visualisations – beyond two dimensions     |
 | 15:15 - 15:30 | _Break_ |                                                     |
-| 15.30 - 16.30 | 5       | Scraping – fetching data with Python                |
+| 15.30 - 16.30 | 5       | Transforming Data                                   |
 
 <br>
 <br>
