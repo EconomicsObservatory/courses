@@ -6,6 +6,7 @@
     "text": "Indian Trade",
     "color": "whitesmoke",
     "subtitleColor": "whitesmoke",
+    "subtitleFontWeight": "lighter",
     "subtitle": ["Exports and Imports, % of GDP", "Source: ODI via ECO API", ""]
   },
   "data": {
