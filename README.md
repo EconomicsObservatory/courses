@@ -136,20 +136,20 @@ By this stage you have a live site and can update a long list of data series at 
 <br>
 <br>
 
-## Session 5:	Scrapers – fetching data programmatically
+## Session 5:	Transforming Data
 
-Sometimes there is no API is available and there is no obvious source of data in a clean format. Here we turn to scraping. Participants will embed a chart that uses a scaped data source. This brings together all our tools: `Python` and `JavaScript`, then `HTML` and `CSS`. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
+Cleaning and transforming data is a fundamental stage in a modern data workflow. In this session, participants will learn how to use `Python` with the `Pandas` library to manage and bring together data effectively. Fetching Indian trade data from the Economics Observatory API, participants will merge and transform the series with `Pandas` and produce an interactive chart to embed on their page. This brings together all our tools: `Python` and `JavaScript`, then `HTML` and `CSS`. The day finishes with tidying up participants’ websites, meaning everyone goes home with a page they can be proud of and a host of new skills.
 
 **Resources**
-- An advanced notebook, introducing scraping
-	-  [🗻 s5_Scraping.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping.ipynb)
-- An example of scraped data: [s5_eco_words.csv](5/s5_eco_words.csv)
-- A chart using the scraped data: [s5_chart1.json](5/s5_chart1.json)
-- Slides: [s5_scraping_data.pdf](5/s5_scraping_data.pdf)
-- A bonus notebook, introducing scraping HTML tables with Pandas
-	-  [🗻 s5_Scraping_Bonus.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_Scraping_Bonus.ipynb)
+- A notebook, introducing data transformation with `Pandas`
+	-  [👟 s5_transforming_data.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_transforming_data.ipynb)
+- Data, fetched and transformed during the session: [s5_indian_trade_data.csv](5/s5_indian_trade_data.csv)
+- Two charts using the Indian trade data:
+	- [s5_chart1.json](5/s5_chart1.json): a simple line chart
+	- [s5_chart2.json](5/s5_chart2.json): a chart with more styling applied
+- Slides: [s5_transforming_data.pdf](5/s5_transforming_data.pdf)
 
-✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to scrape data from an external website like the Economics Observatory. You will also have added one last chart to your website, displaying data accessed via a scraper.
+✅ **Checkpoint:** By the end of this session, you will have seen Python in action again – this time to fetch, merge and transform series from the Economics Observatory API. You will also have added one last chart to your website, displaying data from this session.
 
 <br>
 <br>
