@@ -8,7 +8,7 @@ An interactive masterclass by the **Economics Observatory**
 | [**Chart Examples**](https://richarddavies.io/charts)
 | [**Data**](https://github.com/EconomicsObservatory/ECOdataHUB)
 | [**Attendance sheet**](https://docs.google.com/spreadsheets/d/14F9BDCAYbULdZr5ecsEf7mygkuisYC-VW0nb87PS8ek/edit#gid=0)
-| [**Feedback form**](https://forms.office.com/e/2V1QTyrDK2)
+| [**Feedback form**](https://forms.office.com/e/JjQcqz9CyR)
 
 Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data to amplify and distil the messages of our articles. Making charts clear and eye-catching, but also transparent and replicable, is critical. This masterclass is designed to share that workflow. We hope to give you a taste of the huge improvements on offer as data usage in the social sciences modernises.
 
