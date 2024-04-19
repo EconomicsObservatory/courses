@@ -121,7 +121,7 @@ By this stage you have a live site and can update a long list of data series at 
 **Resources**
 - Four advanced chart examples:
 	- Scatter Plots: 
-		- [🥾 s4_chart1.json](4/s4_chart1.json): a simple scatter plot showing US gun deaths and income
+		- [🥾 s4_chart1.json](4/s4_chart1.json): a simple plot of US gun deaths and income
         - [👟 s4_chart2.json](4/s4_chart2.json): a more advance bubble plot
 	-  Maps:  
 		- [👟 s4_chart3.json](4/s4_chart3.json): GDP per capita around the world
