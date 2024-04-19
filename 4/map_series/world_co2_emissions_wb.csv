@@ -1,4 +1,4 @@
-Country,ISO3,wb_co2_emissions,date
+Country,ISO3,world_co2_emissions_wb,date
 Zimbabwe,ZWE,0.530483547000938,2020-01-01
 Zambia,ZMB,0.40190271250386,2020-01-01
 "Yemen, Rep.",YEM,0.308514614308256,2020-01-01
