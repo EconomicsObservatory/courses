@@ -1,4 +1,4 @@
-Country,ISO3,world_gdp_per_capita_PPP_wb,date
+Country,ISO3,value,date
 Zimbabwe,ZWE,2607.92767806131,2022-01-01
 Zambia,ZMB,3975.60063934688,2022-01-01
 West Bank and Gaza,PSE,6759.02159778116,2022-01-01

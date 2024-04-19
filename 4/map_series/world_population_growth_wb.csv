@@ -1,4 +1,4 @@
-Country,ISO3,world_population_growth_wb,date
+Country,ISO3,value,date
 Zimbabwe,ZWE,2.02403630999966,2022-01-01
 Zambia,ZMB,2.7580323433586,2022-01-01
 "Yemen, Rep.",YEM,2.14462842106017,2022-01-01

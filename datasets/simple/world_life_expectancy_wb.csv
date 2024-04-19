@@ -1,4 +1,4 @@
-Country,ISO3,world_life_expectancy_wb,date
+Country,ISO3,value,date
 Zimbabwe,ZWE,59.253,2021-01-01
 Zambia,ZMB,61.223,2021-01-01
 "Yemen, Rep.",YEM,63.753,2021-01-01
