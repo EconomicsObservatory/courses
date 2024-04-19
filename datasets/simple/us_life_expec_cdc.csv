@@ -1,51 +1,51 @@
-date,name,alpha_id,value
-2020,Alabama,AL,73.2
-2020,Alaska,AK,76.6
-2020,Arizona,AZ,76.3
-2020,Arkansas,AR,73.8
-2020,California,CA,79.0
-2020,Colorado,CO,78.3
-2020,Connecticut,CT,78.4
-2020,Delaware,DE,76.7
-2020,Florida,FL,77.5
-2020,Georgia,GA,75.6
-2020,Hawaii,HI,80.7
-2020,Idaho,ID,78.4
-2020,Illinois,IL,76.8
-2020,Indiana,IN,75.0
-2020,Iowa,IA,77.5
-2020,Kansas,KS,76.4
-2020,Kentucky,KY,73.5
-2020,Louisiana,LA,73.1
-2020,Maine,ME,77.8
-2020,Maryland,MD,76.8
-2020,Massachusetts,MA,79.0
-2020,Michigan,MI,76.0
-2020,Minnesota,MN,79.1
-2020,Mississippi,MS,71.9
-2020,Missouri,MO,75.1
-2020,Montana,MT,76.8
-2020,Nebraska,NE,77.7
-2020,Nevada,NV,76.3
-2020,New Hampshire,NH,79.0
-2020,New Jersey,NJ,77.5
-2020,New Mexico,NM,74.5
-2020,New York,NY,77.7
-2020,North Carolina,NC,76.1
-2020,North Dakota,ND,76.9
-2020,Ohio,OH,75.3
-2020,Oklahoma,OK,74.1
-2020,Oregon,OR,78.8
-2020,Pennsylvania,PA,76.8
-2020,Rhode Island,RI,78.2
-2020,South Carolina,SC,74.8
-2020,South Dakota,SD,76.7
-2020,Tennessee,TN,73.8
-2020,Texas,TX,76.5
-2020,Utah,UT,78.6
-2020,Vermont,VT,78.8
-2020,Virginia,VA,77.6
-2020,Washington,WA,79.2
-2020,West Virginia,WV,72.8
-2020,Wisconsin,WI,77.7
-2020,Wyoming,WY,76.3
+date,name,id,alpha_id,value
+2020,Alabama,1,AL,73.2
+2020,Alaska,2,AK,76.6
+2020,Arizona,4,AZ,76.3
+2020,Arkansas,5,AR,73.8
+2020,California,6,CA,79.0
+2020,Colorado,8,CO,78.3
+2020,Connecticut,9,CT,78.4
+2020,Delaware,10,DE,76.7
+2020,Florida,12,FL,77.5
+2020,Georgia,13,GA,75.6
+2020,Hawaii,15,HI,80.7
+2020,Idaho,16,ID,78.4
+2020,Illinois,17,IL,76.8
+2020,Indiana,18,IN,75.0
+2020,Iowa,19,IA,77.5
+2020,Kansas,20,KS,76.4
+2020,Kentucky,21,KY,73.5
+2020,Louisiana,22,LA,73.1
+2020,Maine,23,ME,77.8
+2020,Maryland,24,MD,76.8
+2020,Massachusetts,25,MA,79.0
+2020,Michigan,26,MI,76.0
+2020,Minnesota,27,MN,79.1
+2020,Mississippi,28,MS,71.9
+2020,Missouri,29,MO,75.1
+2020,Montana,30,MT,76.8
+2020,Nebraska,31,NE,77.7
+2020,Nevada,32,NV,76.3
+2020,New Hampshire,33,NH,79.0
+2020,New Jersey,34,NJ,77.5
+2020,New Mexico,35,NM,74.5
+2020,New York,36,NY,77.7
+2020,North Carolina,37,NC,76.1
+2020,North Dakota,38,ND,76.9
+2020,Ohio,39,OH,75.3
+2020,Oklahoma,40,OK,74.1
+2020,Oregon,41,OR,78.8
+2020,Pennsylvania,42,PA,76.8
+2020,Rhode Island,44,RI,78.2
+2020,South Carolina,45,SC,74.8
+2020,South Dakota,46,SD,76.7
+2020,Tennessee,47,TN,73.8
+2020,Texas,48,TX,76.5
+2020,Utah,49,UT,78.6
+2020,Vermont,50,VT,78.8
+2020,Virginia,51,VA,77.6
+2020,Washington,53,WA,79.2
+2020,West Virginia,54,WV,72.8
+2020,Wisconsin,55,WI,77.7
+2020,Wyoming,56,WY,76.3
