@@ -1,0 +1,53 @@
+name,value,id,alpha_id
+North Dakota,2.0,38.0,ND
+South Dakota,2.1,46.0,SD
+Vermont,2.2,50.0,VT
+Maryland,2.5,24.0,MD
+Nebraska,2.5,31.0,NE
+New Hampshire,2.6,33.0,NH
+Kansas,2.7,20.0,KS
+Minnesota,2.7,27.0,MN
+Utah,2.8,49.0,UT
+Wyoming,2.8,56.0,WY
+Iowa,2.9,19.0,IA
+Massachusetts,2.9,25.0,MA
+Virginia,2.9,51.0,VA
+Alabama,3.0,1.0,AL
+Mississippi,3.0,28.0,MS
+Wisconsin,3.0,55.0,WI
+Georgia,3.1,13.0,GA
+Hawaii,3.1,15.0,HI
+South Carolina,3.1,45.0,SC
+Florida,3.2,12.0,FL
+Tennessee,3.2,47.0,TN
+Idaho,3.3,16.0,ID
+Maine,3.3,23.0,ME
+Missouri,3.3,29.0,MO
+Montana,3.3,30.0,MT
+Pennsylvania,3.4,42.0,PA
+Arkansas,3.5,5.0,AR
+Indiana,3.5,18.0,IN
+North Carolina,3.5,37.0,NC
+Oklahoma,3.5,40.0,OK
+Colorado,3.7,8.0,CO
+Arizona,3.8,4.0,AZ
+New Mexico,3.8,35.0,NM
+Ohio,3.8,39.0,OH
+Delaware,3.9,10.0,DE
+Michigan,3.9,26.0,MI
+Texas,3.9,48.0,TX
+Rhode Island,4.0,44.0,RI
+Oregon,4.2,41.0,OR
+New York,4.3,36.0,NY
+West Virginia,4.3,54.0,WV
+Louisiana,4.4,22.0,LA
+Connecticut,4.5,9.0,CT
+Kentucky,4.5,21.0,KY
+Alaska,4.6,2.0,AK
+Illinois,4.8,17.0,IL
+New Jersey,4.8,34.0,NJ
+Washington,4.8,53.0,WA
+Nevada,5.1,32.0,NV
+District of Columbia,5.2,11.0,DC
+California,5.3,6.0,CA
+,,,

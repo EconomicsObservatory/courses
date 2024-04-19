@@ -1,0 +1,52 @@
+name,value,id,alpha_id
+Alabama,59910,1,AL
+Alaska,89740,2,AK
+Arizona,73450,4,AZ
+Arkansas,53980,5,AR
+California,85300,6,CA
+Colorado,89930,8,CO
+Connecticut,90730,9,CT
+Delaware,80750,10,DE
+District of Columbia,101700,11,DC
+Florida,65370,12,FL
+Georgia,67730,13,GA
+Hawaii,91010,15,HI
+Idaho,72580,16,ID
+Illinois,78020,17,IL
+Indiana,70030,18,IN
+Iowa,76320,19,IA
+Kansas,73040,20,KS
+Kentucky,55880,21,KY
+Louisiana,58330,22,LA
+Maine,75160,23,ME
+Maryland,108200,24,MD
+Massachusetts,93550,25,MA
+Michigan,68990,26,MI
+Minnesota,90390,27,MN
+Mississippi,48610,28,MS
+Missouri,71520,29,MO
+Montana,72980,30,MT
+Nebraska,78360,31,NE
+Nevada,72330,32,NV
+New Hampshire,84970,33,NH
+New Jersey,92340,34,NJ
+New Mexico,56420,35,NM
+New York,75910,36,NY
+North Carolina,65070,37,NC
+North Dakota,78720,38,ND
+Ohio,67520,39,OH
+Oklahoma,63440,40,OK
+Oregon,86780,41,OR
+Pennsylvania,72210,42,PA
+Rhode Island,80650,44,RI
+South Carolina,61770,45,SC
+South Dakota,67180,46,SD
+Tennessee,65380,47,TN
+Texas,74640,48,TX
+Utah,95800,49,UT
+Vermont,72190,50,VT
+Virginia,85170,51,VA
+Washington,89430,53,WA
+West Virginia,52460,54,WV
+Wisconsin,73330,55,WI
+Wyoming,73090,56,WY
