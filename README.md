@@ -121,14 +121,17 @@ By this stage you have a live site and can update a long list of data series at 
 **Resources**
 - Four advanced chart examples:
 	- Scatter Plots: 
-		- [🥾 s4_chart1.json](4/s4_chart1.json)
-        - [👟 s4_chart2.json](4/s4_chart2.json)
+		- [🥾 s4_chart1.json](4/s4_chart1.json): a simple scatter plot showing US gun deaths and income
+        - [👟 s4_chart2.json](4/s4_chart2.json): a more advance bubble plot
 	-  Maps:  
-		- [👟 s4_chart3.json](4/s4_chart3.json)
-		- [🗻 s4_chart4.json](4/s4_chart4.json) 
-		-  [👟 s4_chart5.json](4/s4_chart5.json) 
+		- [👟 s4_chart3.json](4/s4_chart3.json): GDP per capita around the world
+		- [🗻 s4_chart4.json](4/s4_chart4.json): literacy rates in India
+		-  [👟 s4_chart5.json](4/s4_chart5.json): household incomes by UK region
+		- [👟 s4_chart6.json](4/s4_chart6.json): US life expectancy by state
 - Further examples, increasing in complexity: 
 	- [🗻 s4_more_example_charts](4/s4_more_example_charts/)
+- Data, to use for maps
+	-  [🗻 s4_map_data](4/map_data/)
 - Slides: [s4_Advanced_visualisations.pdf](4/s4_Advanced_visualisations.pdf)
 
 ✅ **Checkpoint:** By the end of this session, you will have explored a range of interactive and multi-dimension charts, and added at least one of them to your website. This is a change to explore and edit, helping your page to come alive.
