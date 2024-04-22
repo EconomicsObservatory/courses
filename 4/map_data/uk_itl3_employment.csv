@@ -1,0 +1,180 @@
+﻿ITL,ITL code,name,value
+ITL3,TLC11,Hartlepool and Stockton-on-Tees,70.2
+ITL3,TLC12,South Teesside,65.1
+ITL3,TLC13,Darlington,74.2
+ITL3,TLC14,Durham CC,71.2
+ITL3,TLC21,Northumberland,72.3
+ITL3,TLC22,Tyneside,71.3
+ITL3,TLC23,Sunderland,69.3
+ITL3,TLD11,West Cumbria,73.9
+ITL3,TLD12,East Cumbria,82.8
+ITL3,TLD33,Manchester,66.8
+ITL3,TLD34,Greater Manchester South West,77.6
+ITL3,TLD35,Greater Manchester South East,76
+ITL3,TLD36,Greater Manchester North West,73.3
+ITL3,TLD37,Greater Manchester North East,71.4
+ITL3,TLD41,Blackburn with Darwen,68
+ITL3,TLD42,Blackpool,72.8
+ITL3,TLD44,Lancaster and Wyre,71.3
+ITL3,TLD45,Mid Lancashire,83.7
+ITL3,TLD46,East Lancashire,75
+ITL3,TLD47,Chorley and West Lancashire,72.5
+ITL3,TLD61,Warrington,80.4
+ITL3,TLD62,Cheshire East,80.9
+ITL3,TLD63,Cheshire West and Chester,76.9
+ITL3,TLD71,East Merseyside,75.7
+ITL3,TLD72,Liverpool,67.3
+ITL3,TLD73,Sefton,74.8
+ITL3,TLD74,Wirral,76.8
+ITL3,TLE11,"Kingston upon Hull, City of",71.1
+ITL3,TLE12,East Riding of Yorkshire,78.9
+ITL3,TLE13,North and North East Lincolnshire,71.6
+ITL3,TLE21,York,79.2
+ITL3,TLE22,North Yorkshire CC,79.2
+ITL3,TLE31,"Barnsley, Doncaster and Rotherham",72.2
+ITL3,TLE32,Sheffield,74
+ITL3,TLE41,Bradford,66.3
+ITL3,TLE42,Leeds,74.6
+ITL3,TLE44,Calderdale and Kirklees,72.7
+ITL3,TLE45,Wakefield,75.4
+ITL3,TLF11,Derby,74.2
+ITL3,TLF12,East Derbyshire,73
+ITL3,TLF13,South and West Derbyshire,81.5
+ITL3,TLF14,Nottingham,63.9
+ITL3,TLF15,North Nottinghamshire,77.3
+ITL3,TLF16,South Nottinghamshire,80.4
+ITL3,TLF21,Leicester,71.1
+ITL3,TLF22,Leicestershire CC and Rutland,80.3
+ITL3,TLF24,West Northamptonshire,80.8
+ITL3,TLF25,North Northamptonshire,81.6
+ITL3,TLF30,Lincolnshire,76.4
+ITL3,TLG11,"Herefordshire, County of",83
+ITL3,TLG12,Worcestershire,78
+ITL3,TLG13,Warwickshire,80.7
+ITL3,TLG21,Telford and Wrekin,76.8
+ITL3,TLG22,Shropshire CC,80.7
+ITL3,TLG23,Stoke-on-Trent,72.5
+ITL3,TLG24,Staffordshire CC,79.1
+ITL3,TLG31,Birmingham,65.2
+ITL3,TLG32,Solihull,76.5
+ITL3,TLG33,Coventry,73
+ITL3,TLG36,Dudley,72.6
+ITL3,TLG37,Sandwell,70.7
+ITL3,TLG38,Walsall,70.6
+ITL3,TLG39,Wolverhampton,67.2
+ITL3,TLH11,Peterborough,74.7
+ITL3,TLH12,Cambridgeshire CC,79.7
+ITL3,TLH14,Suffolk,78.3
+ITL3,TLH15,Norwich and East Norfolk,76.3
+ITL3,TLH16,North and West Norfolk,76.4
+ITL3,TLH17,Breckland and South Norfolk,80.2
+ITL3,TLH21,Luton,70.4
+ITL3,TLH23,Hertfordshire,79.1
+ITL3,TLH24,Bedford,76.9
+ITL3,TLH25,Central Bedfordshire,80.8
+ITL3,TLH31,Southend-on-Sea,77.3
+ITL3,TLH32,Thurrock,77.1
+ITL3,TLH34,Essex Haven Gateway,72.6
+ITL3,TLH35,West Essex,78.4
+ITL3,TLH36,Heart of Essex,81.3
+ITL3,TLH37,Essex Thames Gateway,80.3
+ITL3,TLI31,Camden and City of London,71
+ITL3,TLI32,Westminster,71.3
+ITL3,TLI33,Kensington & Chelsea and Hammersmith & Fulham,71.3
+ITL3,TLI34,Wandsworth,80.5
+ITL3,TLI41,Hackney and Newham,71.7
+ITL3,TLI42,Tower Hamlets,71.4
+ITL3,TLI43,Haringey and Islington,77
+ITL3,TLI44,Lewisham and Southwark,78.9
+ITL3,TLI45,Lambeth,78.2
+ITL3,TLI51,Bexley and Greenwich,76.3
+ITL3,TLI52,Barking & Dagenham and Havering,72.7
+ITL3,TLI53,Redbridge and Waltham Forest,72.2
+ITL3,TLI54,Enfield,65.9
+ITL3,TLI61,Bromley,79.3
+ITL3,TLI62,Croydon,76.1
+ITL3,TLI63,"Merton, Kingston upon Thames and Sutton",79.1
+ITL3,TLI71,Barnet,73.9
+ITL3,TLI72,Brent,72.8
+ITL3,TLI73,Ealing,73
+ITL3,TLI74,Harrow and Hillingdon,70.8
+ITL3,TLI75,Hounslow and Richmond upon Thames,75.7
+ITL3,TLJ11,Berkshire,80.5
+ITL3,TLJ12,Milton Keynes,78.3
+ITL3,TLJ13,Buckinghamshire CC,79.3
+ITL3,TLJ14,Oxfordshire,83.4
+ITL3,TLJ21,Brighton and Hove,76.2
+ITL3,TLJ22,East Sussex CC,77
+ITL3,TLJ25,West Surrey,81.5
+ITL3,TLJ26,East Surrey,82.5
+ITL3,TLJ27,West Sussex (South West),81.8
+ITL3,TLJ28,West Sussex (North East),82.2
+ITL3,TLJ31,Portsmouth,70.8
+ITL3,TLJ32,Southampton,75
+ITL3,TLJ34,Isle of Wight,73.8
+ITL3,TLJ35,South Hampshire,76.9
+ITL3,TLJ36,Central Hampshire,79.1
+ITL3,TLJ37,North Hampshire,84.6
+ITL3,TLJ41,Medway,77.9
+ITL3,TLJ43,Kent Thames Gateway,79.9
+ITL3,TLJ44,East Kent,73.3
+ITL3,TLJ45,Mid Kent,80.7
+ITL3,TLJ46,West Kent,81.7
+ITL3,TLK11,"Bristol, City of",76.7
+ITL3,TLK12,"Bath and North East Somerset, North Somerset and South Gloucestershire",80.4
+ITL3,TLK13,Gloucestershire,81.9
+ITL3,TLK14,Swindon,80.1
+ITL3,TLK15,Wiltshire,78.8
+ITL3,TLK23,Somerset,80.4
+ITL3,TLK24,"Bournemouth, Christchurch and Poole",80.9
+ITL3,TLK25,Dorset,76.5
+ITL3,TLK30,Cornwall and Isles of Scilly,77.4
+ITL3,TLK41,Plymouth,74
+ITL3,TLK42,Torbay,74.9
+ITL3,TLK43,Devon CC,81.2
+ITL3,TLL11,Isle of Anglesey,77.1
+ITL3,TLL12,Gwynedd,72.2
+ITL3,TLL13,Conwy and Denbighshire,73.7
+ITL3,TLL14,South West Wales,71.3
+ITL3,TLL15,Central Valleys,68.5
+ITL3,TLL16,Gwent Valleys,70.2
+ITL3,TLL17,Bridgend and Neath Port Talbot,73.8
+ITL3,TLL18,Swansea,69.8
+ITL3,TLL21,Monmouthshire and Newport,75.2
+ITL3,TLL22,Cardiff and Vale of Glamorgan,76.1
+ITL3,TLL23,Flintshire and Wrexham,77.3
+ITL3,TLL24,Powys,76.1
+ITL3,TLM50,Aberdeen City and Aberdeenshire,80
+ITL3,TLM61,Caithness and Sutherland and Ross and Cromarty,75.2
+ITL3,TLM62,"Inverness and Nairn and Moray, Badenoch and Strathspey",78.7
+ITL3,TLM63,"Lochaber, Skye and Lochalsh, Arran and Cumbrae and Argyll and Bute",75.9
+ITL3,TLM64,Na h-Eileanan Siar,82.3
+ITL3,TLM65,Orkney Islands,87.1
+ITL3,TLM66,Shetland Islands,77.6
+ITL3,TLM71,Angus and Dundee City,71.6
+ITL3,TLM72,Clackmannanshire and Fife,73.8
+ITL3,TLM73,East Lothian and Midlothian,79.6
+ITL3,TLM75,City of Edinburgh,75.1
+ITL3,TLM76,Falkirk,74.1
+ITL3,TLM77,Perth and Kinross and Stirling,79.2
+ITL3,TLM78,West Lothian,77.8
+ITL3,TLM81,"East Dunbartonshire, West Dunbartonshire and Helensburgh and Lomond",75.2
+ITL3,TLM82,Glasgow City,67.3
+ITL3,TLM83,"Inverclyde, East Renfrewshire and Renfrewshire",74
+ITL3,TLM84,North Lanarkshire,74.3
+ITL3,TLM91,Scottish Borders,76.2
+ITL3,TLM92,Dumfries and Galloway,75.1
+ITL3,TLM93,East Ayrshire and North Ayrshire mainland,72.3
+ITL3,TLM94,South Ayrshire,73.9
+ITL3,TLM95,South Lanarkshire,76.6
+ITL3,TLN06,Belfast,67.6
+ITL3,TLN07,"Armagh City, Banbridge and Craigavon",72.3
+ITL3,TLN08,"Newry, Mourne and Down",73.6
+ITL3,TLN09,Ards and North Down,73.1
+ITL3,TLN0A,Derry City and Strabane,68
+ITL3,TLN0B,Mid Ulster,75.3
+ITL3,TLN0C,Causeway Coast and Glens,67.6
+ITL3,TLN0D,Antrim and Newtownabbey,77.3
+ITL3,TLN0E,Lisburn and Castlereagh,81.1
+ITL3,TLN0F,Mid and East Antrim,74.2
+ITL3,TLN0G,Fermanagh and Omagh,65

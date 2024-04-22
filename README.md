@@ -127,7 +127,10 @@ By this stage you have a live site and can update a long list of data series at 
 		- GDP per capita around the world ([👟 s4_chart3.json](4/s4_chart3.json))
 		- Literacy rates in India ([🗻 s4_chart4.json](4/s4_chart4.json))
 		- Household incomes by UK region ([👟 s4_chart5.json](4/s4_chart5.json))
-		- US life expectancy by state ([👟 s4_chart6.json](4/s4_chart6.json):)
+		- US life expectancy by state ([👟 s4_chart6.json](4/s4_chart6.json))
+		- Population by UK ITL1 region ([👟 s4_chart7.json](4/s4_chart7.json))
+		- Inactivity rate by UK ITL3 region ([👟 s4_chart8.json](4/s4_chart8.json))
+
 - Further examples, increasing in complexity ([🗻 s4_more_example_charts](4/s4_more_example_charts/))
 - Data, for use with maps ([🗻 s4_map_data](4/map_data/))
 - Slides: [s4_Advanced_visualisations.pdf](4/s4_Advanced_visualisations.pdf)

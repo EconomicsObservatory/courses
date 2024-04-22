@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A map of UK economic inactivity by ITL3 (formerly NUTS3) region. Using ONS 2019 data.",
+  "title": {
+    "text": "UK Inactivity",
+    "subtitle": [
+      "Economic inactivity rate, age 16-64 years, ITL3 regions",
+      "Source: ONS"
+    ],
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter",
+    "anchor": "middle"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/uk_itl3.geojson",
+    "format": {"property": "features"}
+  },
+  "width": 300,
+  "height": 400,
+  "transform": [
+    {
+      "lookup": "properties.ITL321CD",
+      "from": {
+        "key": "ITL code",
+        "fields": ["name", "value"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/4/map_data/uk_itl3_inactivity.csv"
+        }
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.2},
+  "encoding": {
+    "color": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {"scheme": "goldred"},
+      "legend": {"title": ""}
+    },
+    "tooltip": [
+      {"field": "properties.ITL321NM", "title": "Region"},
+      {"field": "value", "title": "Inactivity (%)", "format": ","}
+    ]
+  },
+  "config": {}
+}
