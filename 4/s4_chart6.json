@@ -10,7 +10,7 @@
   },
   "description": "A map of US life expectancy using 2020 CDC data.",
   "data": {
-    "url": "data/us-10m.json",
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/us_states.json",
     "format": {"type": "topojson", "feature": "states"}
   },
   "width": 600,
