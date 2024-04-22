@@ -1,0 +1,180 @@
+﻿ITL,ITL code,name,value
+ITL3,TLC11,Hartlepool and Stockton-on-Tees,291011
+ITL3,TLC12,South Teesside,278130
+ITL3,TLC13,Darlington,106803
+ITL3,TLC14,Durham CC,530094
+ITL3,TLC21,Northumberland,322434
+ITL3,TLC22,Tyneside,863764
+ITL3,TLC23,Sunderland,277705
+ITL3,TLD11,West Cumbria,232993
+ITL3,TLD12,East Cumbria,267019
+ITL3,TLD33,Manchester,552858
+ITL3,TLD34,Greater Manchester South West,496188
+ITL3,TLD35,Greater Manchester South East,519916
+ITL3,TLD36,Greater Manchester North West,616212
+ITL3,TLD37,Greater Manchester North East,650512
+ITL3,TLD41,Blackburn with Darwen,149696
+ITL3,TLD42,Blackpool,139446
+ITL3,TLD44,Lancaster and Wyre,258129
+ITL3,TLD45,Mid Lancashire,395591
+ITL3,TLD46,East Lancashire,333557
+ITL3,TLD47,Chorley and West Lancashire,232522
+ITL3,TLD61,Warrington,210014
+ITL3,TLD62,Cheshire East,384152
+ITL3,TLD63,Cheshire West and Chester,343071
+ITL3,TLD71,East Merseyside,460857
+ITL3,TLD72,Liverpool,498042
+ITL3,TLD73,Sefton,276410
+ITL3,TLD74,Wirral,324011
+ITL3,TLE11,"Kingston upon Hull, City of",259778
+ITL3,TLE12,East Riding of Yorkshire,341173
+ITL3,TLE13,North and North East Lincolnshire,331855
+ITL3,TLE21,York,210618
+ITL3,TLE22,North Yorkshire CC,618054
+ITL3,TLE31,"Barnsley, Doncaster and Rotherham",824167
+ITL3,TLE32,Sheffield,584853
+ITL3,TLE41,Bradford,539776
+ITL3,TLE42,Leeds,793139
+ITL3,TLE44,Calderdale and Kirklees,651242
+ITL3,TLE45,Wakefield,348312
+ITL3,TLF11,Derby,257302
+ITL3,TLF12,East Derbyshire,286924
+ITL3,TLF13,South and West Derbyshire,515770
+ITL3,TLF14,Nottingham,332900
+ITL3,TLF15,North Nottinghamshire,477111
+ITL3,TLF16,South Nottinghamshire,351113
+ITL3,TLF21,Leicester,354224
+ITL3,TLF22,Leicestershire CC and Rutland,746082
+ITL3,TLF24,West Northamptonshire,405050
+ITL3,TLF25,North Northamptonshire,348228
+ITL3,TLF30,Lincolnshire,761224
+ITL3,TLG11,"Herefordshire, County of",192801
+ITL3,TLG12,Worcestershire,595786
+ITL3,TLG13,Warwickshire,577933
+ITL3,TLG21,Telford and Wrekin,179854
+ITL3,TLG22,Shropshire CC,323136
+ITL3,TLG23,Stoke-on-Trent,256375
+ITL3,TLG24,Staffordshire CC,879560
+ITL3,TLG31,Birmingham,1141816
+ITL3,TLG32,Solihull,216374
+ITL3,TLG33,Coventry,371521
+ITL3,TLG36,Dudley,321596
+ITL3,TLG37,Sandwell,328450
+ITL3,TLG38,Walsall,285478
+ITL3,TLG39,Wolverhampton,263357
+ITL3,TLH11,Peterborough,202259
+ITL3,TLH12,Cambridgeshire CC,653537
+ITL3,TLH14,Suffolk,761350
+ITL3,TLH15,Norwich and East Norfolk,370692
+ITL3,TLH16,North and West Norfolk,256220
+ITL3,TLH17,Breckland and South Norfolk,280848
+ITL3,TLH21,Luton,213052
+ITL3,TLH23,Hertfordshire,1189519
+ITL3,TLH24,Bedford,173292
+ITL3,TLH25,Central Bedfordshire,288648
+ITL3,TLH31,Southend-on-Sea,183125
+ITL3,TLH32,Thurrock,174341
+ITL3,TLH34,Essex Haven Gateway,493871
+ITL3,TLH35,West Essex,310040
+ITL3,TLH36,Heart of Essex,320335
+ITL3,TLH37,Essex Thames Gateway,364943
+ITL3,TLI31,Camden and City of London,279750
+ITL3,TLI32,Westminster,261317
+ITL3,TLI33,Kensington & Chelsea and Hammersmith & Fulham,341272
+ITL3,TLI34,Wandsworth,329677
+ITL3,TLI41,Hackney and Newham,634254
+ITL3,TLI42,Tower Hamlets,324745
+ITL3,TLI43,Haringey and Islington,511114
+ITL3,TLI44,Lewisham and Southwark,624672
+ITL3,TLI45,Lambeth,326034
+ITL3,TLI51,Bexley and Greenwich,536229
+ITL3,TLI52,Barking & Dagenham and Havering,472458
+ITL3,TLI53,Redbridge and Waltham Forest,582205
+ITL3,TLI54,Enfield,333794
+ITL3,TLI61,Bromley,332336
+ITL3,TLI62,Croydon,386710
+ITL3,TLI63,"Merton, Kingston upon Thames and Sutton",590404
+ITL3,TLI71,Barnet,395869
+ITL3,TLI72,Brent,329771
+ITL3,TLI73,Ealing,341806
+ITL3,TLI74,Harrow and Hillingdon,558030
+ITL3,TLI75,Hounslow and Richmond upon Thames,469542
+ITL3,TLJ11,Berkshire,914859
+ITL3,TLJ12,Milton Keynes,269457
+ITL3,TLJ13,Buckinghamshire CC,543973
+ITL3,TLJ14,Oxfordshire,691667
+ITL3,TLJ21,Brighton and Hove,290885
+ITL3,TLJ22,East Sussex CC,557229
+ITL3,TLJ25,West Surrey,791487
+ITL3,TLJ26,East Surrey,404749
+ITL3,TLJ27,West Sussex (South West),456758
+ITL3,TLJ28,West Sussex (North East),407222
+ITL3,TLJ31,Portsmouth,214905
+ITL3,TLJ32,Southampton,252520
+ITL3,TLJ34,Isle of Wight,141771
+ITL3,TLJ35,South Hampshire,460875
+ITL3,TLJ36,Central Hampshire,553413
+ITL3,TLJ37,North Hampshire,368254
+ITL3,TLJ41,Medway,278556
+ITL3,TLJ43,Kent Thames Gateway,369627
+ITL3,TLJ44,East Kent,538443
+ITL3,TLJ45,Mid Kent,301858
+ITL3,TLJ46,West Kent,371627
+ITL3,TLK11,"Bristol, City of",463377
+ITL3,TLK12,"Bath and North East Somerset, North Somerset and South Gloucestershire",693427
+ITL3,TLK13,Gloucestershire,637070
+ITL3,TLK14,Swindon,222193
+ITL3,TLK15,Wiltshire,500024
+ITL3,TLK23,Somerset,562225
+ITL3,TLK24,"Bournemouth, Christchurch and Poole",395331
+ITL3,TLK25,Dorset,378508
+ITL3,TLK30,Cornwall and Isles of Scilly,571802
+ITL3,TLK41,Plymouth,262100
+ITL3,TLK42,Torbay,136264
+ITL3,TLK43,Devon CC,802375
+ITL3,TLL11,Isle of Anglesey,70043
+ITL3,TLL12,Gwynedd,124560
+ITL3,TLL13,Conwy and Denbighshire,212899
+ITL3,TLL14,South West Wales,387284
+ITL3,TLL15,Central Valleys,301590
+ITL3,TLL16,Gwent Valleys,344898
+ITL3,TLL17,Bridgend and Neath Port Talbot,290364
+ITL3,TLL18,Swansea,246993
+ITL3,TLL21,Monmouthshire and Newport,249266
+ITL3,TLL22,Cardiff and Vale of Glamorgan,500490
+ITL3,TLL23,Flintshire and Wrexham,292057
+ITL3,TLL24,Powys,132435
+ITL3,TLM50,Aberdeen City and Aberdeenshire,489880
+ITL3,TLM61,Caithness and Sutherland and Ross and Cromarty,93827
+ITL3,TLM62,"Inverness and Nairn and Moray, Badenoch and Strathspey",204768
+ITL3,TLM63,"Lochaber, Skye and Lochalsh, Arran and Cumbrae and Argyll and Bute",98936
+ITL3,TLM64,Na h-Eileanan Siar,26720
+ITL3,TLM65,Orkney Islands,22270
+ITL3,TLM66,Shetland Islands,22920
+ITL3,TLM71,Angus and Dundee City,265520
+ITL3,TLM72,Clackmannanshire and Fife,425090
+ITL3,TLM73,East Lothian and Midlothian,199550
+ITL3,TLM75,City of Edinburgh,524930
+ITL3,TLM76,Falkirk,160890
+ITL3,TLM77,Perth and Kinross and Stirling,246160
+ITL3,TLM78,West Lothian,183100
+ITL3,TLM81,"East Dunbartonshire, West Dunbartonshire and Helensburgh and Lomond",223391
+ITL3,TLM82,Glasgow City,633120
+ITL3,TLM83,"Inverclyde, East Renfrewshire and Renfrewshire",352430
+ITL3,TLM84,North Lanarkshire,341370
+ITL3,TLM91,Scottish Borders,115510
+ITL3,TLM92,Dumfries and Galloway,148860
+ITL3,TLM93,East Ayrshire and North Ayrshire mainland,250918
+ITL3,TLM94,South Ayrshire,112610
+ITL3,TLM95,South Lanarkshire,320530
+ITL3,TLN06,Belfast,343542
+ITL3,TLN07,"Armagh City, Banbridge and Craigavon",216205
+ITL3,TLN08,"Newry, Mourne and Down",181368
+ITL3,TLN09,Ards and North Down,161725
+ITL3,TLN0A,Derry City and Strabane,151284
+ITL3,TLN0B,Mid Ulster,148528
+ITL3,TLN0C,Causeway Coast and Glens,144838
+ITL3,TLN0D,Antrim and Newtownabbey,143504
+ITL3,TLN0E,Lisburn and Castlereagh,146002
+ITL3,TLN0F,Mid and East Antrim,139274
+ITL3,TLN0G,Fermanagh and Omagh,117397
