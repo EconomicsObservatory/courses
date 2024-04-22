@@ -19,12 +19,6 @@ Welcome to our masterclass. At the **Economics Observatory (ECO)** we use data 
 
 The course will take you from a being complete beginner to someone capable of designing and building stunning charts using cutting-edge tools, connected to live data. The course is designed to highlight the advantages and some caveats of using data visualisation for communicating information to a wide and diverse audience. It will also introduce some of our guiding principles for displaying data, focusing on transparency and how to select appropriate tools and methods for different datasets and contexts.
 
-Throughout the course, we will offer and support 3 routes up the data mountain:
-
-  - **🥾 Hiker** - the gentlest route, for those with no coding experience who simply want to build some nice-looking charts in a modern way.
-  - **👟 Trail runner** - slightly more stretching, for those who find the hike quick to complete and would like to build on their visualisation skills.
-  - **🗻 Mountaineer** - harder but rewarding, for participants who would like a taste of cutting-edge tools and techniques.
-
 Throughout the day we signpost additional resources to develop the ideas further, allowing you to gain confidence in your own abilities and even teach others. 
 
 <br>
@@ -65,7 +59,7 @@ The day starts with an introduction from the **Economics Observatory Data Team*
 	3. API: ([s1_chart3.json](1/s1_chart3.json))
 - Slides: [s1_Charts_as_data.pdf](1/s1_Charts_as_data.pdf)
 - We have also prepared 5 very simple datasets to try using with Vega-lite.
-	- 👟[s1_example_data](1/s1_example_data)
+	- [s1_example_data](1/s1_example_data)
 
 ✅ **Checkpoint:** By the end of this session, you will have seen all three JSON types, and will have added one of these files to your personal GitHub repository.
 
@@ -78,8 +72,8 @@ By now you have a live chart (your JSON file) ready to embed into your website. 
 **Resources:**
 - A template to use for your website: [s2_example1.html](2/s2_example1.html)
 - Three options for CSS Stylesheets, to customise your website:
-	1. A clean and full example with all the work done for you ([🥾 s2_example1.css](2/s2_example1.css):)
-	2. A minimal example containing instructions to help you style the website ( [👟 s2_example2.css](2/s2_example2.css))
+	1. A clean and full example with all the work done for you ([s2_example1.css](2/s2_example1.css):)
+	2. A minimal example containing instructions to help you style the website ( [s2_example2.css](2/s2_example2.css))
 	3. A more complex example, placing charts and descriptions side-by-side ([🗻 s2_example3.css](2/s2_example3.css))
 - Two example charts, to start your website:
 	1. A simple bar chart showing the human development index (HDI) for 21 countries ([s2_chart1.json](2/s2_chart1.json))
@@ -97,16 +91,16 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
-	- An example notebook ([🥾s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) ) that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser.
-	-  A notebook ([👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb)) showing the construction of a dynamic charts using the Economics Observatory API.
-	- A bonus notebook ( [👟s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_extra_python_examples.ipynb)) with some additional context for coding with Python.
+	- An example notebook ([s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) ) that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser.
+	-  A notebook ([s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb)) showing the construction of a dynamic charts using the Economics Observatory API.
+	- A bonus notebook ( [s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_extra_python_examples.ipynb)) with some additional context for coding with Python.
 - Two examples of using data from APIs:
 	1. FRED API:
-		- Bond-yield data downloaded directly from FRED ([🥾s3_data_FRED-DGS10.json](3/s3_data_FRED-DGS10.json))
-		- A chart specification using data from the FRED API uploaded to GitHub ([🥾s3_chart1.json](3/s3_chart1.json))
-		- A template for making charts with cached FRED data ([👟s3_chart2.json](3/s3_chart2.json))
+		- Bond-yield data downloaded directly from FRED ([s3_data_FRED-DGS10.json](3/s3_data_FRED-DGS10.json))
+		- A chart specification using data from the FRED API uploaded to GitHub ([s3_chart1.json](3/s3_chart1.json))
+		- A template for making charts with cached FRED data ([s3_chart2.json](3/s3_chart2.json))
 	2. The Economics Observatory API
-		-  A dynamic chart specification ([🥾s3_chart3.json](3/s3_chart3.json)) showing Australian unemployment built using the [👟s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) notebook.
+		-  A dynamic chart specification ([s3_chart3.json](3/s3_chart3.json)) showing Australian unemployment built using the [s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb) notebook.
 - Slides: [s3_Accessing_data_programmatically.pdf](3/s3_Accessing_data_programmatically.pdf)
 	
 ✅ **Checkpoint:** By the end of this session, you will have explored Python as a way to batch download data, and will have embedded one more chart into your website (displaying data accessed via Python).
@@ -121,15 +115,15 @@ By this stage you have a live site and can update a long list of data series at 
 **Resources**
 - Four advanced chart examples:
 	- Scatter Plots: 
-		- A simple plot of US gun crime ([🥾 s4_chart1.json](4/s4_chart1.json))
-        - A more advanced bubble plot ([👟 s4_chart2.json](4/s4_chart2.json))
+		- A simple plot of US gun crime ([s4_chart1.json](4/s4_chart1.json))
+        - A more advanced bubble plot ([s4_chart2.json](4/s4_chart2.json))
 	-  Maps:  
-		- GDP per capita around the world ([👟 s4_chart3.json](4/s4_chart3.json))
+		- GDP per capita around the world ([s4_chart3.json](4/s4_chart3.json))
 		- Literacy rates in India ([🗻 s4_chart4.json](4/s4_chart4.json))
-		- Household incomes by UK region ([👟 s4_chart5.json](4/s4_chart5.json))
-		- US life expectancy by state ([👟 s4_chart6.json](4/s4_chart6.json))
-		- Population by UK ITL1 region ([👟 s4_chart7.json](4/s4_chart7.json))
-		- Inactivity rate by UK ITL3 region ([👟 s4_chart8.json](4/s4_chart8.json))
+		- Household incomes by UK region ([s4_chart5.json](4/s4_chart5.json))
+		- US life expectancy by state ([s4_chart6.json](4/s4_chart6.json))
+		- Population by UK ITL1 region ([s4_chart7.json](4/s4_chart7.json))
+		- Inactivity rate by UK ITL3 region ([s4_chart8.json](4/s4_chart8.json))
 
 - Further examples, increasing in complexity ([🗻 s4_more_example_charts](4/s4_more_example_charts/))
 - Data, for use with maps ([🗻 s4_map_data](4/map_data/))
@@ -146,7 +140,7 @@ Cleaning and transforming data is a fundamental stage in a modern data workflow.
 
 **Resources**
 - A notebook, introducing data transformation with `Pandas`
-	-  [👟 s5_transforming_data.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_transforming_data.ipynb)
+	-  [s5_transforming_data.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/5/s5_transforming_data.ipynb)
 - Data, fetched and transformed during the session ([s5_indian_trade_data.csv](5/s5_indian_trade_data.csv))
 - Two charts using the Indian trade data:
 	- A simple line chart ([s5_chart1.json](5/s5_chart1.json) )
