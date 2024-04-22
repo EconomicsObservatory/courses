@@ -91,8 +91,8 @@ Here we introduce APIs more formally, running through their strengths and pitfal
 
 **Resources**
 - This session starts to introduce you to coding in the `Python` language. We will use the online code editor `Google Colab` for this.
-	- An example notebook ([s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) ) that you can start with. This link takes you to the `Colab` user interface, where you can run Python code from your browser.
-	-  A notebook ([s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb)) showing the construction of a dynamic charts using the Economics Observatory API.
+	- A notebook ([s3_workbook_ECO_API.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_ECO_API.ipynb)) showing the construction of a dynamic charts using the Economics Observatory API.
+	- An example notebook ([s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb) ) [s3_workbook_Loops_APIs.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_workbook_Loops_APIs.ipynb)) using loops to fetch data from the FRED API.
 	- A bonus notebook ( [s3_extra_python_examples.ipynb](https://colab.research.google.com/github/EconomicsObservatory/courses/blob/main/3/s3_extra_python_examples.ipynb)) with some additional context for coding with Python.
 - Two examples of using data from APIs:
 	1. FRED API:
