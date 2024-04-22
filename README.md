@@ -122,7 +122,7 @@ By this stage you have a live site and can update a long list of data series at 
 - Four advanced chart examples:
 	- Scatter Plots: 
 		- A simple plot of US gun crime ([🥾 s4_chart1.json](4/s4_chart1.json))
-        - A more advance bubble plot ([👟 s4_chart2.json](4/s4_chart2.json))
+        - A more advanced bubble plot ([👟 s4_chart2.json](4/s4_chart2.json))
 	-  Maps:  
 		- GDP per capita around the world ([👟 s4_chart3.json](4/s4_chart3.json))
 		- Literacy rates in India ([🗻 s4_chart4.json](4/s4_chart4.json))
