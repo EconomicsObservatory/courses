@@ -1,52 +1,52 @@
 name,value,id,alpha_id
-Alabama,2.7,1.0,AL
-Alaska,60.9,2.0,AK
-Arizona,38.6,4.0,AZ
-Arkansas,9.4,5.0,AR
-California,45.4,6.0,CA
-Colorado,36.2,8.0,CO
-Connecticut,0.3,9.0,CT
-Delaware,2.4,10.0,DE
-District of Columbia,24.7,11.0,DC
-Florida,12.9,12.0,FL
-Georgia,12.9,13.0,GA
-Hawaii,20.2,15.0,HI
-Idaho,61.9,16.0,ID
-Illinois,1.2,17.0,IL
-Indiana,1.7,18.0,IN
-Iowa,0.3,19.0,IA
-Kansas,0.5,20.0,KS
-Kentucky,4.3,21.0,KY
-Louisiana,4.7,22.0,LA
-Maine,1.5,23.0,ME
-Maryland,3.2,24.0,MD
-Massachusetts,1.2,25.0,MA
-Michigan,10.0,26.0,MI
-Minnesota,6.8,27.0,MN
-Mississippi,5.1,28.0,MS
-Missouri,3.8,29.0,MO
-Montana,29.0,30.0,MT
-Nebraska,1.1,31.0,NE
-Nevada,80.1,32.0,NV
-New Hampshire,14.0,33.0,NH
-New Jersey,3.6,34.0,NJ
-New Mexico,31.7,35.0,NM
-New York,0.8,36.0,NY
-North Carolina,7.8,37.0,NC
-North Dakota,3.9,38.0,ND
-Ohio,1.2,39.0,OH
-Oklahoma,1.5,40.0,OK
-Oregon,52.3,41.0,OR
-Pennsylvania,2.2,42.0,PA
-Rhode Island,0.7,44.0,RI
-South Carolina,4.5,45.0,SC
-South Dakota,5.4,46.0,SD
-Tennessee,4.8,47.0,TN
-Texas,1.9,48.0,TX
-Utah,63.1,49.0,UT
-Vermont,7.8,50.0,VT
-Virginia,9.3,51.0,VA
-Washington,28.6,53.0,WA
-West Virginia,7.4,54.0,WV
-Wisconsin,5.3,55.0,WI
-Wyoming,46.7,56.0,WY
+Alabama,2.7,1,AL
+Alaska,60.9,2,AK
+Arizona,38.6,4,AZ
+Arkansas,9.4,5,AR
+California,45.4,6,CA
+Colorado,36.2,8,CO
+Connecticut,0.3,9,CT
+Delaware,2.4,10,DE
+District of Columbia,24.7,11,DC
+Florida,12.9,12,FL
+Georgia,12.9,13,GA
+Hawaii,20.2,15,HI
+Idaho,61.9,16,ID
+Illinois,1.2,17,IL
+Indiana,1.7,18,IN
+Iowa,0.3,19,IA
+Kansas,0.5,20,KS
+Kentucky,4.3,21,KY
+Louisiana,4.7,22,LA
+Maine,1.5,23,ME
+Maryland,3.2,24,MD
+Massachusetts,1.2,25,MA
+Michigan,10,26,MI
+Minnesota,6.8,27,MN
+Mississippi,5.1,28,MS
+Missouri,3.8,29,MO
+Montana,29,30,MT
+Nebraska,1.1,31,NE
+Nevada,80.1,32,NV
+New Hampshire,14,33,NH
+New Jersey,3.6,34,NJ
+New Mexico,31.7,35,NM
+New York,0.8,36,NY
+North Carolina,7.8,37,NC
+North Dakota,3.9,38,ND
+Ohio,1.2,39,OH
+Oklahoma,1.5,40,OK
+Oregon,52.3,41,OR
+Pennsylvania,2.2,42,PA
+Rhode Island,0.7,44,RI
+South Carolina,4.5,45,SC
+South Dakota,5.4,46,SD
+Tennessee,4.8,47,TN
+Texas,1.9,48,TX
+Utah,63.1,49,UT
+Vermont,7.8,50,VT
+Virginia,9.3,51,VA
+Washington,28.6,53,WA
+West Virginia,7.4,54,WV
+Wisconsin,5.3,55,WI
+Wyoming,46.7,56,WY
