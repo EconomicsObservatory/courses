@@ -35,7 +35,7 @@
       "field": "value",
       "type": "quantitative",
       "legend": {"title": ""},
-      "scale": {"type": "log", "scheme": "redyellowgreen", "reverse": false}
+      "scale": {"type": "linear", "scheme": "redyellowgreen", "reverse": false}
     },
     "tooltip": [
       {"field": "name", "title": "state"},
