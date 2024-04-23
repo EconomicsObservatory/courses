@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/e4e/ch8_Trends/data/chart8_x_chips.csv"
+  },
+  "title": {
+    "text": "Getting faster fast",
+    "subtitle": [
+      "CPUs by transistor count and country of Designer",
+      "Linear and log scales, Multiple Sources",
+      ""
+    ],
+    "subtitleFontWeight": "lighter",
+    "subtitleFontSize": 12,
+    "fontSize": 16,
+    "anchor": "start",
+    "color": "black"
+  },
+  "params": [
+    {
+      "name": "Country",
+      "value": "Select a Country",
+      "select": {"type": "point", "fields": ["select"]},
+      "bind": {
+        "input": "select",
+        "options": [
+          "Select a Country",
+          "United States",
+          "Japan",
+          "United Kingdom",
+          "China",
+          "South Korea"
+        ]
+      }
+    }
+  ],
+  "view": {"stroke": "transparent"},
+  "width": 400,
+  "height": 400,
+  "transform": [
+    {"calculate": "log(datum.count)", "as": "countLog"},
+    {"calculate": "Country", "as": "foo"},
+    {"filter": "datum.Transistor < 100000000000"}
+  ],
+  "mark": {"type": "circle", "color": "rgba(128,0,0,0.5)", "size": 60},
+  "encoding": {
+    "tooltip": [
+      {"field": "Name"},
+      {"field": "Details"},
+      {"field": "Transistor", "title": "Transistor Count"},
+      {"field": "Designer Country"}
+    ],
+    "opacity": {
+      "condition": [
+        {
+          "test": "(Country.select == 'Select a Country' | Country.select == datum['Designer Country'])",
+          "value": 1
+        }
+      ],
+      "value": 0.1
+    },
+    "color": {
+      "field": "Designer Country",
+      "scale": {
+        "scheme": "dark2",
+        "domain": [
+          "Multiple Countries",
+          "Japan",
+          "United Kingdom",
+          "China",
+          "South Korea",
+          "United States"
+        ],
+        "reverse": true
+      },
+      "legend": {
+        "orient": "none",
+        "title": null,
+        "legendX": 0,
+        "legendY": -25,
+        "direction": "horizontal",
+        "values": [
+          "United States",
+          "Japan",
+          "United Kingdom",
+          "China",
+          "South Korea",
+          "Multiple Countries"
+        ]
+      }
+    },
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"grid": false, "tickOpacity": 0},
+      "title": null
+    },
+    "y": {
+      "field": "Transistor",
+      "type": "quantitative",
+      "scale": {"type": "linear"},
+      "axis": {"grid": true, "tickOpacity": 0, "gridOpacity": 0.6},
+      "title": null
+    }
+  }
+}
