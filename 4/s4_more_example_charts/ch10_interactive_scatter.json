@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/jhellingsdata/RADataHub/main/e4e/ch8_Trends/data/chart8_x_chips.csv"
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/50_years_of_chips.csv"
   },
   "title": {
     "text": "Getting faster fast",
