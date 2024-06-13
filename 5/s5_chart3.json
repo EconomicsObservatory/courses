@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/sample_data/cardiovascular_system_substances.csv"
+  },
+  "mark": {"type": "circle"},
+  "title": {
+    "text": "Cardiovascular System Substances Expenditure",
+    "subtitle": [
+      "All subtances in Cardiovascular System BNF chapter",
+      "Source: NHS",
+      ""
+    ],
+    "anchor": "start",
+    "dx": 80
+  },
+  "width": 400,
+  "height": 400,
+  "encoding": {
+    "x": {"field": "total_items", "type": "quantitative", "title": "Quantity"},
+    "size": {
+      "field": "cost_per_item",
+      "type": "quantitative",
+      "scale": {"range": [25, 400]}
+    },
+    "color": {"field": "section_name"},
+    "y": {
+      "field": "total_cost",
+      "type": "quantitative",
+      "title": "Cost, log scale",
+      "scale": {"type": "log"}
+    }
+  }
+}
