@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/sample_data/chaps_values.csv"
+    },
+    "config": {
+      "view": {"strokeOpacity": 0},
+      "axis": {
+        "titleColor": "rgb(159,168,178)",
+        "labelColor": "rgb(159,168,178)",
+        "domainColor": "rgb(159,168,178)"
+      },
+      "legend": {
+        "direction": "horizontal",
+        "title": null,
+        "titleColor": "rgb(159,168,178)",
+        "labelColor": "rgb(159,168,178)",
+        "orient": "top"
+      }
+    },
+    "background": "rgb(18, 39, 63)",
+    "transform": [{"filter": "year(datum.date)>2022"}],
+    "width": 500,
+    "height": 350,
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "timeUnit": "yearmonth",
+        "axis": {"format": "%b %Y", "grid": false}
+      },
+      "color": {
+        "field": "series",
+        "scale": {"range": ["rgb(223, 104, 9)", "rgb(65, 215, 217)"]}
+      }
+    },
+    "layer": [
+      {
+        "transform": [{"filter": "datum.series == 'gbp_value'"}],
+        "mark": {"type": "bar"},
+        "encoding": {
+          "y": {
+            "field": "value",
+            "title": "Value (per Month)",
+            "type": "quantitative",
+            "scale": {"domain": [-10000000000, 10000000000]},
+            "axis": {
+              "labelExpr": "datum.value >= 0 ? '£'+format(datum.value, ',.0r'): ''",
+              "grid": false
+            }
+          }
+        }
+      },
+      {
+        "transform": [{"filter": "datum.series == 'change'"}],
+        "mark": {"type": "line", "strokeWidth": 4},
+        "encoding": {
+          "y": {
+            "field": "value",
+            "title": "Year-on-Year Growth",
+            "scale": {"domain": [-0.3, 0.3]},
+            "type": "quantitative",
+            "axis": {"format": "%"}
+          }
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+  }

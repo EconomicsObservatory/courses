@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/5/sample_data/chaps_values.csv"
+    },
+    "transform": [{"filter": "year(datum.date)>2022"}],
+    "width": 500,
+    "height": 350,
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "timeUnit": "yearmonth"
+      },
+      "color": {"field": "series"}
+    },
+    "layer": [
+      {
+        "transform": [{"filter": "datum.series == 'gbp_value'"}],
+        "mark": {"type": "bar"},
+        "encoding": {
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Value (GBP, monthly)"
+          }
+        }
+      },
+      {
+        "transform": [{"filter": "datum.series == 'change'"}],
+        "mark": {"type": "line"},
+        "encoding": {
+          "y": {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Change (annual)"
+          }
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+  }
